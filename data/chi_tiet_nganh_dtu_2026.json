@@ -1,0 +1,1253 @@
+[
+    {
+        "TT": 1,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480103",
+        "Ngành": "Ngành Kỹ thuật Phần mềm",
+        "Chuyên ngành": "Công nghệ Phần mềm (Đạt kiểm định ABET)",
+        "Mã CN": "102",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 2,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480103",
+        "Ngành": "Ngành Kỹ thuật Phần mềm",
+        "Chuyên ngành": "Thiết kế Games và Multimedia",
+        "Mã CN": "122",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 3,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480103",
+        "Ngành": "Ngành Kỹ thuật Phần mềm",
+        "Chuyên ngành": "Công nghệ Phần mềm Ô tô Thông minh",
+        "Mã CN": "131",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 4,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480202",
+        "Ngành": "Ngành An toàn Thông tin",
+        "Chuyên ngành": "An toàn Thông tin",
+        "Mã CN": "124",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 5,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480101",
+        "Ngành": "Ngành Khoa học Máy tính",
+        "Chuyên ngành": "Kỹ thuật Máy tính",
+        "Mã CN": "128",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 6,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480101",
+        "Ngành": "Ngành Khoa học Máy tính",
+        "Chuyên ngành": "Khoa học Máy tính",
+        "Mã CN": "130",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 7,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480107",
+        "Ngành": "Ngành Trí tuệ Nhân tạo",
+        "Chuyên ngành": "Trí tuệ Nhân tạo (HP)",
+        "Mã CN": "121(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 8,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7460108",
+        "Ngành": "Ngành Khoa học Dữ liệu",
+        "Chuyên ngành": "Big Data & Machine Learning (HP)",
+        "Mã CN": "115(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 9,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480102",
+        "Ngành": "Ngành Mạng Máy tính & Truyền thông Dữ liệu (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Kỹ thuật Mạng",
+        "Mã CN": "101",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 10,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": "7480102",
+        "Ngành": "Ngành Mạng Máy tính & Truyền thông Dữ liệu (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Mạng máy tính & Truyền thông Dữ liệu",
+        "Mã CN": "140",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 11,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510301",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Điện tử - Viễn thông",
+        "Mã CN": "109",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 12,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510301",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Điện - Điện tử chuẩn PNU",
+        "Mã CN": "113(PNU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 13,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510301",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Thiết kế Vi mạch Bán dẫn",
+        "Mã CN": "127",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 14,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510301",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Điện tử Viễn thông Hàng không",
+        "Mã CN": 143,
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 15,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510205",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Ô tô",
+        "Chuyên ngành": "Công nghệ Kỹ thuật Ô tô",
+        "Mã CN": "117",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 16,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510205",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Ô tô",
+        "Chuyên ngành": "Công nghệ Ô tô Điện",
+        "Mã CN": "141",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 17,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510205",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Ô tô",
+        "Chuyên ngành": "Điện Cơ Ô tô",
+        "Mã CN": "145",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 18,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7520216",
+        "Ngành": "Ngành Kỹ thuật Điều khiển & Tự động hóa",
+        "Chuyên ngành": "Điện Tự động",
+        "Mã CN": "110",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 19,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7520216",
+        "Ngành": "Ngành Kỹ thuật Điều khiển & Tự động hóa",
+        "Chuyên ngành": "Kỹ thuật Điều khiển & Tự động hóa",
+        "Mã CN": "118",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 20,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7520114",
+        "Ngành": "Ngành Kỹ thuật Cơ Điện tử",
+        "Chuyên ngành": "Cơ Điện tử chuẩn PNU",
+        "Mã CN": "112(PNU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 21,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7520201",
+        "Ngành": "Ngành Kỹ thuật Điện",
+        "Chuyên ngành": "Kỹ thuật Điện",
+        "Mã CN": "150",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 22,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510202",
+        "Ngành": "Ngành Công nghệ Chế tạo Máy",
+        "Chuyên ngành": "Công nghệ Chế tạo Máy",
+        "Mã CN": "125",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 23,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7210403",
+        "Ngành": "Ngành Thiết kế Đồ họa",
+        "Chuyên ngành": "Thiết kế Đồ họa",
+        "Mã CN": "111",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 24,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7210403",
+        "Ngành": "Ngành Thiết kế Đồ họa",
+        "Chuyên ngành": "Thiết kế Đồ họa & AI",
+        "Mã CN": "111(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 25,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7210403",
+        "Ngành": "Ngành Thiết kế Đồ họa",
+        "Chuyên ngành": "Thiết kế Mỹ thuật số",
+        "Mã CN": "129",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 26,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7210404",
+        "Ngành": "Ngành Thiết kế Thời trang",
+        "Chuyên ngành": "Thiết kế Thời trang",
+        "Mã CN": "119",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 27,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7210404",
+        "Ngành": "Ngành Thiết kế Thời trang",
+        "Chuyên ngành": "Thiết kế Thời trang & AI",
+        "Mã CN": "119(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 28,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7580101",
+        "Ngành": "Ngành Kiến trúc",
+        "Chuyên ngành": "Kiến trúc Công trình",
+        "Mã CN": "107",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 29,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7580101",
+        "Ngành": "Ngành Kiến trúc",
+        "Chuyên ngành": "Kiến trúc Công trình & AI",
+        "Mã CN": "107(AI)",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 30,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7580103",
+        "Ngành": "Ngành Kiến trúc Nội thất",
+        "Chuyên ngành": "Thiết kế Nội thất",
+        "Mã CN": "123",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 31,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7580103",
+        "Ngành": "Ngành Kiến trúc Nội thất",
+        "Chuyên ngành": "Thiết kế Nội thất & AI",
+        "Mã CN": "123(AI)",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 32,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7580201",
+        "Ngành": "Ngành Kỹ thuật Xây dựng (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Xây dựng Dân dụng & Công nghiệp",
+        "Mã CN": "105",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, X06, X07"
+    },
+    {
+        "TT": 33,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7580201",
+        "Ngành": "Ngành Kỹ thuật Xây dựng (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Xây dựng Cầu đường",
+        "Mã CN": "106",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, X06, X07"
+    },
+    {
+        "TT": 34,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510102",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Công trình Xây dựng",
+        "Chuyên ngành": "Công nghệ Quản lý Xây dựng",
+        "Mã CN": "206",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, X06, X07"
+    },
+    {
+        "TT": 35,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510102",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Công trình Xây dựng",
+        "Chuyên ngành": "Công nghệ Quản lý Xây dựng & AI",
+        "Mã CN": "206(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, X06, X07"
+    },
+    {
+        "TT": 36,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7510406",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Môi trường",
+        "Chuyên ngành": "Kỹ thuật Môi trường",
+        "Mã CN": "300",
+        "Tổ hợp xét tuyển": "A00, A02, B00, B03, C01, C02"
+    },
+    {
+        "TT": 37,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7540101",
+        "Ngành": "Ngành Công nghệ Thực phẩm",
+        "Chuyên ngành": "Công nghệ Thực phẩm (Đạt kiểm định ABET)",
+        "Mã CN": "306",
+        "Tổ hợp xét tuyển": "A00, A02, B00, B03, C01, C02"
+    },
+    {
+        "TT": 38,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7850101",
+        "Ngành": "Ngành Quản lý Tài nguyên & Môi trường",
+        "Chuyên ngành": "Quản lý Tài nguyên & Môi trường",
+        "Mã CN": "307",
+        "Tổ hợp xét tuyển": "A00, A02, B00, B03, C01, C02"
+    },
+    {
+        "TT": 39,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": "7210205",
+        "Ngành": "Ngành Thanh nhạc",
+        "Chuyên ngành": "Thanh nhạc & Sản xuất Âm nhạc",
+        "Mã CN": "901",
+        "Tổ hợp xét tuyển": "N00"
+    },
+    {
+        "TT": 40,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340101",
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Tổng hợp",
+        "Mã CN": "400",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 41,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340101",
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Tổng hợp & AI",
+        "Mã CN": "400(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 42,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340101",
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Quốc tế (Ngoại thương)",
+        "Mã CN": "411",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 43,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340101",
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Bất động sản",
+        "Mã CN": "415",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 44,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340101",
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Bất động sản & AI",
+        "Mã CN": "415(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 45,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340122",
+        "Ngành": "Ngành Thương mại Điện tử",
+        "Chuyên ngành": "Thương mại Điện tử",
+        "Mã CN": "422",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 46,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340404",
+        "Ngành": "Ngành Quản trị Nhân lực",
+        "Chuyên ngành": "Quản trị Nhân lực",
+        "Mã CN": "417",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 47,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7510605",
+        "Ngành": "Ngành Logistics & Quản lý Chuỗi Cung ứng",
+        "Chuyên ngành": "Logistics & Quản lý Chuỗi cung ứng",
+        "Mã CN": "416",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 48,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7510605",
+        "Ngành": "Ngành Logistics & Quản lý Chuỗi Cung ứng",
+        "Chuyên ngành": "Logistics & Quản lý Chuỗi cung ứng & AI",
+        "Mã CN": "416(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 49,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340115",
+        "Ngành": "Ngành Marketing",
+        "Chuyên ngành": "Quản trị Kinh doanh Marketing",
+        "Mã CN": "401",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 50,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340115",
+        "Ngành": "Ngành Marketing",
+        "Chuyên ngành": "Digital Marketing",
+        "Mã CN": "402",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 51,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340121",
+        "Ngành": "Ngành Kinh doanh Thương mại",
+        "Chuyên ngành": "Kinh doanh Thương mại",
+        "Mã CN": "412",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 52,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340201",
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Tài chính Doanh nghiệp",
+        "Mã CN": "403",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 53,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340201",
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Tài chính Doanh nghiệp & AI",
+        "Mã CN": "403(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 54,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340201",
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Ngân hàng",
+        "Mã CN": "404",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 55,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340201",
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Ngân hàng & AI",
+        "Mã CN": "404(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 56,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7310104",
+        "Ngành": "Ngành Đầu tư Tài chính",
+        "Chuyên ngành": "Đầu tư Tài chính",
+        "Mã CN": "133",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 57,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340301",
+        "Ngành": "Ngành Kế toán",
+        "Chuyên ngành": "Kế toán Doanh nghiệp",
+        "Mã CN": "406",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 58,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340301",
+        "Ngành": "Ngành Kế toán",
+        "Chuyên ngành": "Kế toán Doanh nghiệp & AI",
+        "Mã CN": "406(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 59,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340301",
+        "Ngành": "Ngành Kế toán",
+        "Chuyên ngành": "Kế toán Quản trị (HP)",
+        "Mã CN": "406(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 60,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340302",
+        "Ngành": "Ngành Kiểm toán",
+        "Chuyên ngành": "Kế toán - Kiểm toán",
+        "Mã CN": "405",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 61,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": "7340205",
+        "Ngành": "Ngành Công nghệ Tài chính",
+        "Chuyên ngành": "Công nghệ Tài chính (Fintech)",
+        "Mã CN": "435",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 62,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220201",
+        "Ngành": "Ngành Ngôn ngữ Anh",
+        "Chuyên ngành": "Tiếng Anh Biên-Phiên dịch",
+        "Mã CN": "701",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 63,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220201",
+        "Ngành": "Ngành Ngôn ngữ Anh",
+        "Chuyên ngành": "Tiếng Anh Biên-Phiên dịch & AI",
+        "Mã CN": "701(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 64,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220201",
+        "Ngành": "Ngành Ngôn ngữ Anh",
+        "Chuyên ngành": "Tiếng Anh Du lịch",
+        "Mã CN": "702",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 65,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220201",
+        "Ngành": "Ngành Ngôn ngữ Anh",
+        "Chuyên ngành": "Tiếng Anh Thương mại",
+        "Mã CN": "801",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 66,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220204",
+        "Ngành": "Ngành Ngôn ngữ Trung Quốc",
+        "Chuyên ngành": "Tiếng Trung Biên-Phiên dịch",
+        "Mã CN": "703",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 67,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220204",
+        "Ngành": "Ngành Ngôn ngữ Trung Quốc",
+        "Chuyên ngành": "Tiếng Trung Biên-Phiên dịch & AI",
+        "Mã CN": "703(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 68,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220204",
+        "Ngành": "Ngành Ngôn ngữ Trung Quốc",
+        "Chuyên ngành": "Tiếng Trung Du lịch",
+        "Mã CN": "707",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 69,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220204",
+        "Ngành": "Ngành Ngôn ngữ Trung Quốc",
+        "Chuyên ngành": "Tiếng Trung Thương mại",
+        "Mã CN": "803",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 70,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220210",
+        "Ngành": "Ngành Ngôn ngữ Hàn Quốc",
+        "Chuyên ngành": "Tiếng Hàn Biên-Phiên dịch",
+        "Mã CN": "705",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 71,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220210",
+        "Ngành": "Ngành Ngôn ngữ Hàn Quốc",
+        "Chuyên ngành": "Tiếng Hàn Biên-Phiên dịch & AI",
+        "Mã CN": "705(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 72,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220210",
+        "Ngành": "Ngành Ngôn ngữ Hàn Quốc",
+        "Chuyên ngành": "Tiếng Hàn Du lịch",
+        "Mã CN": "706",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 73,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220210",
+        "Ngành": "Ngành Ngôn ngữ Hàn Quốc",
+        "Chuyên ngành": "Tiếng Hàn Thương mại",
+        "Mã CN": "805",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 74,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220209",
+        "Ngành": "Ngành Ngôn ngữ Nhật",
+        "Chuyên ngành": "Tiếng Nhật Biên-Phiên dịch",
+        "Mã CN": "704",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 75,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220209",
+        "Ngành": "Ngành Ngôn ngữ Nhật",
+        "Chuyên ngành": "Tiếng Nhật Biên-Phiên dịch & AI",
+        "Mã CN": "704(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 76,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220209",
+        "Ngành": "Ngành Ngôn ngữ Nhật",
+        "Chuyên ngành": "Tiếng Nhật Du lịch",
+        "Mã CN": "708",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 77,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7220209",
+        "Ngành": "Ngành Ngôn ngữ Nhật",
+        "Chuyên ngành": "Tiếng Nhật Thương mại",
+        "Mã CN": "804",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 78,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7229030",
+        "Ngành": "Ngành Văn học",
+        "Chuyên ngành": "Văn Báo chí",
+        "Mã CN": "601",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 79,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7310630",
+        "Ngành": "Ngành Việt Nam học",
+        "Chuyên ngành": "Việt Nam học",
+        "Mã CN": "600",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 80,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7320104",
+        "Ngành": "Ngành Truyền thông Đa phương tiện",
+        "Chuyên ngành": "Truyền thông Đa phương tiện",
+        "Mã CN": "607",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 81,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7320104",
+        "Ngành": "Ngành Truyền thông Đa phương tiện",
+        "Chuyên ngành": "Truyền thông số & Quảng cáo",
+        "Mã CN": "615",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 82,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7310206",
+        "Ngành": "Ngành Quan hệ Quốc tế",
+        "Chuyên ngành": "Quan hệ Quốc tế (Tiếng Trung)",
+        "Mã CN": "603",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 83,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7310206",
+        "Ngành": "Ngành Quan hệ Quốc tế",
+        "Chuyên ngành": "Quan hệ Quốc tế (Tiếng Anh)",
+        "Mã CN": "608",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 84,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7310206",
+        "Ngành": "Ngành Quan hệ Quốc tế",
+        "Chuyên ngành": "Quan hệ Quốc tế (HP)",
+        "Mã CN": "608(HP)",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 85,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7320108",
+        "Ngành": "Ngành Quan hệ Công chúng",
+        "Chuyên ngành": "Quan hệ Công chúng",
+        "Mã CN": "610",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 86,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7320108",
+        "Ngành": "Ngành Quan hệ Công chúng",
+        "Chuyên ngành": "Quan hệ Công chúng & AI",
+        "Mã CN": "610(AI)",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 87,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7380107",
+        "Ngành": "Ngành Luật Kinh tế",
+        "Chuyên ngành": "Luật Kinh tế",
+        "Mã CN": "609",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 88,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7380107",
+        "Ngành": "Ngành Luật Kinh tế",
+        "Chuyên ngành": "Luật Kinh doanh (HP)",
+        "Mã CN": "609(HP)",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 89,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": "7380101",
+        "Ngành": "Ngành Luật",
+        "Chuyên ngành": "Luật học",
+        "Mã CN": "606",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 90,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810201",
+        "Ngành": "Ngành Quản trị Khách sạn",
+        "Chuyên ngành": "Quản trị Du lịch & Khách sạn",
+        "Mã CN": "407",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 91,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810201",
+        "Ngành": "Ngành Quản trị Khách sạn",
+        "Chuyên ngành": "Quản trị Khách sạn Quốc tế (PSU) (Đạt kiểm định UNWTO.Tedqual)",
+        "Mã CN": "414(PSU)",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 92,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810103",
+        "Ngành": "Ngành Quản trị Dịch vụ Du lịch & Lữ hành",
+        "Chuyên ngành": "Quản trị Du lịch & Lữ hành",
+        "Mã CN": "408",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 93,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810103",
+        "Ngành": "Ngành Quản trị Dịch vụ Du lịch & Lữ hành",
+        "Chuyên ngành": "Quản trị Du lịch & Lữ hành chuẩn PSU",
+        "Mã CN": "408(PSU)",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 94,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810103",
+        "Ngành": "Ngành Quản trị Dịch vụ Du lịch & Lữ hành",
+        "Chuyên ngành": "Hướng dẫn Du lịch Quốc tế (tiếng Anh)",
+        "Mã CN": "440",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 95,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810103",
+        "Ngành": "Ngành Quản trị Dịch vụ Du lịch & Lữ hành",
+        "Chuyên ngành": "Hướng dẫn Du lịch Quốc tế (tiếng Hàn)",
+        "Mã CN": "441",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 96,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810103",
+        "Ngành": "Ngành Quản trị Dịch vụ Du lịch & Lữ hành",
+        "Chuyên ngành": "Hướng dẫn Du lịch Quốc tế (tiếng Trung)",
+        "Mã CN": "442",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 97,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810103",
+        "Ngành": "Ngành Quản trị Dịch vụ Du lịch & Lữ hành",
+        "Chuyên ngành": "Quản trị Du lịch & Dịch vụ Hàng không",
+        "Mã CN": "444",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 98,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7340412",
+        "Ngành": "Ngành Quản trị Sự kiện",
+        "Chuyên ngành": "Quản trị Sự kiện & Giải trí",
+        "Mã CN": "413",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 99,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810202",
+        "Ngành": "Ngành Quản trị Nhà hàng & Dịch vụ Ăn uống",
+        "Chuyên ngành": "Quản trị Nhà hàng Quốc tế (PSU) (Đạt kiểm định UNWTO.Tedqual)",
+        "Mã CN": "425(PSU)",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 100,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810101",
+        "Ngành": "Ngành Du lịch",
+        "Chuyên ngành": "Smart Tourism (Du lịch thông minh)",
+        "Mã CN": "445",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 101,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810101",
+        "Ngành": "Ngành Du lịch",
+        "Chuyên ngành": "Du lịch Văn hóa",
+        "Mã CN": "448",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 102,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810501",
+        "Ngành": "Ngành Kinh tế Gia đình",
+        "Chuyên ngành": "Quản trị Khởi nghiệp & Phát triển Kinh doanh",
+        "Mã CN": "426",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 103,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": "7810501",
+        "Ngành": "Ngành Kinh tế Gia đình",
+        "Chuyên ngành": "Quản trị Khởi nghiệp & AI",
+        "Mã CN": "426(AI)",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 104,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7720101",
+        "Ngành": "Ngành Y khoa",
+        "Chuyên ngành": "Bác sĩ Đa khoa",
+        "Mã CN": "305",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 105,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7720501",
+        "Ngành": "Ngành Răng-Hàm-Mặt",
+        "Chuyên ngành": "Bác sĩ RĂNG-HÀM-MẶT",
+        "Mã CN": "304",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 106,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7720301",
+        "Ngành": "Ngành Điều dưỡng",
+        "Chuyên ngành": "Điều dưỡng Đa khoa",
+        "Mã CN": "302",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 107,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7720201",
+        "Ngành": "Ngành Dược",
+        "Chuyên ngành": "Dược Sỹ (Đại học)",
+        "Mã CN": "303",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 108,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7420201",
+        "Ngành": "Ngành Công nghệ Sinh học",
+        "Chuyên ngành": "Công nghệ Sinh học",
+        "Mã CN": "310",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 109,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7520212",
+        "Ngành": "Ngành Kỹ thuật Y sinh",
+        "Chuyên ngành": "Kỹ thuật Y sinh",
+        "Mã CN": "320",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 110,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7520212",
+        "Ngành": "Ngành Kỹ thuật Y sinh",
+        "Chuyên ngành": "Kỹ thuật Y sinh & AI",
+        "Mã CN": "320(AI)",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 111,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": "7720601",
+        "Ngành": "Ngành Kỹ thuật Xét nghiệm Y học",
+        "Chuyên ngành": "Xét nghiệm Y học",
+        "Mã CN": "330",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 112,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7480103",
+        "Ngành": "Ngành Kỹ thuật Phần mềm",
+        "Chuyên ngành": "Công nghệ Phần mềm chuẩn CMU (Đạt kiểm định ABET)",
+        "Mã CN": "102(CMU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 113,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7480202",
+        "Ngành": "Ngành An toàn Thông tin",
+        "Chuyên ngành": "An ninh Mạng chuẩn CMU",
+        "Mã CN": "116(CMU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 114,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7340405",
+        "Ngành": "Ngành Hệ thống Thông tin Quản lý (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Hệ thống Thông tin quản lý chuẩn CMU (Đạt kiểm định ABET)",
+        "Mã CN": "410(CMU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 115,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7340122",
+        "Ngành": "Ngành Thương mại Điện tử",
+        "Chuyên ngành": "Thương mại Điện tử chuẩn CMU",
+        "Mã CN": "422(CMU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 116,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7340101",
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh chuẩn PSU",
+        "Mã CN": "400(PSU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 117,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7340201",
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Tài chính - Ngân hàng chuẩn PSU",
+        "Mã CN": "404(PSU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 118,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7340205",
+        "Ngành": "Ngành Công nghệ Tài chính",
+        "Chuyên ngành": "Công nghệ Tài chính (Fintech) chuẩn PSU",
+        "Mã CN": "435(PSU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 119,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7340301",
+        "Ngành": "Ngành Kế toán",
+        "Chuyên ngành": "Kế toán - Kiểm toán chuẩn PSU",
+        "Mã CN": "405(PSU)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 120,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7580201",
+        "Ngành": "Ngành Kỹ thuật Xây dựng (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Xây dựng Dân dụng & Công nghiệp chuẩn CSU (Đạt kiểm định ABET)",
+        "Mã CN": "105(CSU)",
+        "Tổ hợp xét tuyển": "A00, A01, C01, D01, X06, X07"
+    },
+    {
+        "TT": 121,
+        "Trường / Chương trình": "Chương trình Tiên tiến & Quốc tế",
+        "Mã Ngành": "7580101",
+        "Ngành": "Ngành Kiến trúc",
+        "Chuyên ngành": "Kiến trúc Công trình chuẩn CSU",
+        "Mã CN": "107(CSU)",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 122,
+        "Trường / Chương trình": "Chương trình Du học tại chỗ lấy bằng Mỹ",
+        "Mã Ngành": "7480101 (LK)",
+        "Ngành": "Ngành Khoa học Máy tính (TROY)",
+        "Chuyên ngành": "Công nghệ thông tin TROY",
+        "Mã CN": "102(TROY)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 123,
+        "Trường / Chương trình": "Chương trình Du học tại chỗ lấy bằng Mỹ",
+        "Mã Ngành": "7340101 (LK)",
+        "Ngành": "Ngành Quản trị Kinh doanh (TROY)",
+        "Chuyên ngành": "Quản trị Kinh doanh TROY",
+        "Mã CN": "400(TROY)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 124,
+        "Trường / Chương trình": "Chương trình Du học tại chỗ lấy bằng Mỹ",
+        "Mã Ngành": "7810201 (LK)",
+        "Ngành": "Ngành Quản trị Khách sạn (TROY)",
+        "Chuyên ngành": "Quản trị Du lịch & Khách sạn TROY",
+        "Mã CN": "407(TROY)",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 125,
+        "Trường / Chương trình": "Chương trình tài năng (Quản lý Nam Khuê)",
+        "Mã Ngành": "7340101 (HP)",
+        "Ngành": "Ngành Quản trị Kinh doanh (HP)",
+        "Chuyên ngành": "Quản trị Doanh nghiệp (HP)",
+        "Mã CN": "400(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 126,
+        "Trường / Chương trình": "Chương trình tài năng (Quản lý Nam Khuê)",
+        "Mã Ngành": "7340115 (HP)",
+        "Ngành": "Ngành Marketing (HP)",
+        "Chuyên ngành": "Quản trị Marketing & Chiến lược (HP)",
+        "Mã CN": "401(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 127,
+        "Trường / Chương trình": "Chương trình tài năng (Quản lý Nam Khuê)",
+        "Mã Ngành": "7340201 (HP)",
+        "Ngành": "Ngành Tài chính - Ngân hàng (HP)",
+        "Chuyên ngành": "Quản trị Tài chính (HP)",
+        "Mã CN": "403(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 128,
+        "Trường / Chương trình": "Chương trình tài năng (Quản lý Nam Khuê)",
+        "Mã Ngành": "7510605 (HP)",
+        "Ngành": "Ngành Logistics & Quản lý Chuỗi cung ứng (HP)",
+        "Chuyên ngành": "Logistics & Quản lý Chuỗi cung ứng (HP)",
+        "Mã CN": "416(HP)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 129,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7480103",
+        "Ngành": "Công nghệ Phần mềm (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Công nghệ Phần mềm (Chương trình Việt-Nhật)",
+        "Mã CN": "102(VJJ)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 130,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7510301",
+        "Ngành": "Điện tử - Viễn thông (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Điện tử - Viễn thông (Chương trình Việt-Nhật)",
+        "Mã CN": "109(VJJ)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 131,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7520216",
+        "Ngành": "Kỹ thuật Điều khiển & Tự động hóa (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Kỹ thuật Điều khiển & Tự động hóa (Chương trình Việt-Nhật)",
+        "Mã CN": "118(VJJ)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 132,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7510205",
+        "Ngành": "Công nghệ Kỹ thuật Ô tô (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Công nghệ Kỹ thuật Ô tô (Chương trình Việt-Nhật)",
+        "Mã CN": "117(VJJ)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 133,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7580201",
+        "Ngành": "Xây dựng Dân dụng & Công nghiệp (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Xây dựng Dân dụng & Công nghiệp (Chương trình Việt-Nhật)",
+        "Mã CN": "105(VJJ)",
+        "Tổ hợp xét tuyển": "A00, A01, C01, D01, X06, X07"
+    },
+    {
+        "TT": 134,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7580101",
+        "Ngành": "Kiến trúc Công trình (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Kiến trúc Công trình (Chương trình Việt-Nhật)",
+        "Mã CN": "107(VJJ)",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 135,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7210403",
+        "Ngành": "Thiết kế Đồ họa (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Thiết kế Đồ họa (Chương trình Việt-Nhật)",
+        "Mã CN": "111(VJJ)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 136,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7540101",
+        "Ngành": "Công nghệ Thực phẩm (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Công nghệ Thực phẩm (Chương trình Việt-Nhật)",
+        "Mã CN": "306(VJJ)",
+        "Tổ hợp xét tuyển": "A00, B00, B03, C01, C02, A02"
+    },
+    {
+        "TT": 137,
+        "Trường / Chương trình": "Chương trình Việt - Nhật",
+        "Mã Ngành": "7720301",
+        "Ngành": "Điều dưỡng Đa khoa (Chương trình Việt-Nhật)",
+        "Chuyên ngành": "Điều dưỡng Đa khoa (Chương trình Việt-Nhật)",
+        "Mã CN": "302(VJJ)",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 138,
+        "Trường / Chương trình": "Chương trình CTBC",
+        "Mã Ngành": "7510301",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Thiết kế Vi mạch Bán dẫn CTBC (Đài Loan - Trung Quốc)",
+        "Mã CN": "127(CTBC)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 139,
+        "Trường / Chương trình": "Chương trình CTBC",
+        "Mã Ngành": "7510205",
+        "Ngành": "Ngành Công nghệ Kỹ thuật Ô tô",
+        "Chuyên ngành": "Công nghệ Kỹ thuật Ô tô (Đài Loan - Trung Quốc)",
+        "Mã CN": "117(CTBC)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    }
+]

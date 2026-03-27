@@ -1,0 +1,236 @@
+[
+    {
+        "TT": 1,
+        "Trường / Chương trình": "Trường Khoa học Máy tính & Trí tuệ Nhân tạo",
+        "Mã Ngành": 7480103,
+        "Ngành": "Ngành Kỹ thuật Phần mềm",
+        "Chuyên ngành": "Công nghệ Phần mềm Ô tô Thông minh",
+        "Mã CN": "131",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 2,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7510301,
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Điện tử Viễn thông Hàng không",
+        "Mã CN": 143,
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 3,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7510205,
+        "Ngành": "Ngành Công nghệ Kỹ thuật Ô tô",
+        "Chuyên ngành": "Công nghệ Ô tô Điện",
+        "Mã CN": "141",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 4,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7210403,
+        "Ngành": "Ngành Thiết kế Đồ họa",
+        "Chuyên ngành": "Thiết kế Đồ họa & AI",
+        "Mã CN": "111(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 5,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7210404,
+        "Ngành": "Ngành Thiết kế Thời trang",
+        "Chuyên ngành": "Thiết kế Thời trang & AI",
+        "Mã CN": "119(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, V01"
+    },
+    {
+        "TT": 6,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7580101,
+        "Ngành": "Ngành Kiến trúc",
+        "Chuyên ngành": "Kiến trúc Công trình & AI",
+        "Mã CN": "107(AI)",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 7,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7580103,
+        "Ngành": "Ngành Kiến trúc Nội thất",
+        "Chuyên ngành": "Thiết kế Nội thất & AI",
+        "Mã CN": "123(AI)",
+        "Tổ hợp xét tuyển": "V00, V01, V02, V06"
+    },
+    {
+        "TT": 8,
+        "Trường / Chương trình": "Trường Công nghệ & Kỹ thuật",
+        "Mã Ngành": 7510102,
+        "Ngành": "Ngành Công nghệ Kỹ thuật Công trình Xây dựng",
+        "Chuyên ngành": "Công nghệ Quản lý Xây dựng & AI",
+        "Mã CN": "206(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, X06, X07"
+    },
+    {
+        "TT": 9,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": 7340101,
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Tổng hợp & AI",
+        "Mã CN": "400(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 10,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": 7340101,
+        "Ngành": "Ngành Quản trị Kinh doanh",
+        "Chuyên ngành": "Quản trị Kinh doanh Bất động sản & AI",
+        "Mã CN": "415(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 11,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": 7510605,
+        "Ngành": "Ngành Logistics & Quản lý Chuỗi Cung ứng",
+        "Chuyên ngành": "Logistics & Quản lý Chuỗi cung ứng & AI",
+        "Mã CN": "416(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 12,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": 7340201,
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Tài chính Doanh nghiệp & AI",
+        "Mã CN": "403(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 13,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": 7340201,
+        "Ngành": "Ngành Tài chính - Ngân hàng",
+        "Chuyên ngành": "Ngân hàng & AI",
+        "Mã CN": "404(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 14,
+        "Trường / Chương trình": "Trường Kinh tế & Kinh doanh",
+        "Mã Ngành": 7340301,
+        "Ngành": "Ngành Kế toán",
+        "Chuyên ngành": "Kế toán Doanh nghiệp & AI",
+        "Mã CN": "406(AI)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, A07, X01"
+    },
+    {
+        "TT": 15,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": 7220201,
+        "Ngành": "Ngành Ngôn ngữ Anh",
+        "Chuyên ngành": "Tiếng Anh Biên-Phiên dịch & AI",
+        "Mã CN": "701(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 16,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": 7220204,
+        "Ngành": "Ngành Ngôn ngữ Trung Quốc",
+        "Chuyên ngành": "Tiếng Trung Biên-Phiên dịch & AI",
+        "Mã CN": "703(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 17,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": 7220210,
+        "Ngành": "Ngành Ngôn ngữ Hàn Quốc",
+        "Chuyên ngành": "Tiếng Hàn Biên-Phiên dịch & AI",
+        "Mã CN": "705(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 18,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": 7220209,
+        "Ngành": "Ngành Ngôn ngữ Nhật",
+        "Chuyên ngành": "Tiếng Nhật Biên-Phiên dịch & AI",
+        "Mã CN": "704(AI)",
+        "Tổ hợp xét tuyển": "D01, D09, D14, D15, A01, D10"
+    },
+    {
+        "TT": 19,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": 7320104,
+        "Ngành": "Ngành Truyền thông Đa phương tiện",
+        "Chuyên ngành": "Truyền thông số & Quảng cáo",
+        "Mã CN": "615",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 20,
+        "Trường / Chương trình": "Trường Ngôn ngữ & Xã hội Nhân văn",
+        "Mã Ngành": 7320108,
+        "Ngành": "Ngành Quan hệ Công chúng",
+        "Chuyên ngành": "Quan hệ Công chúng & AI",
+        "Mã CN": "610(AI)",
+        "Tổ hợp xét tuyển": "C00, D01, C03, C04, D14, D15"
+    },
+    {
+        "TT": 21,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": 7810101,
+        "Ngành": "Ngành Du lịch",
+        "Chuyên ngành": "Du lịch Văn hóa",
+        "Mã CN": "448",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 22,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": 7810501,
+        "Ngành": "Ngành Kinh tế Gia đình",
+        "Chuyên ngành": "Quản trị Khởi nghiệp & Phát triển Kinh doanh",
+        "Mã CN": "426",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 23,
+        "Trường / Chương trình": "Trường Du lịch",
+        "Mã Ngành": 7810501,
+        "Ngành": "Ngành Kinh tế Gia đình",
+        "Chuyên ngành": "Quản trị Khởi nghiệp & AI",
+        "Mã CN": "426(AI)",
+        "Tổ hợp xét tuyển": "A01, C00, D01, C03, C04, X01"
+    },
+    {
+        "TT": 24,
+        "Trường / Chương trình": "Y-Dược DTU",
+        "Mã Ngành": 7520212,
+        "Ngành": "Ngành Kỹ thuật Y sinh",
+        "Chuyên ngành": "Kỹ thuật Y sinh & AI",
+        "Mã CN": "320(AI)",
+        "Tổ hợp xét tuyển": "A00, B00, B03, A02, D08, D07"
+    },
+    {
+        "TT": 25,
+        "Trường / Chương trình": "Chương trình CTBC",
+        "Mã Ngành": 7510301,
+        "Ngành": "Ngành Công nghệ Kỹ thuật Điện, Điện tử (Đạt kiểm định ABET)",
+        "Chuyên ngành": "Thiết kế Vi mạch Bán dẫn CTBC (Đài Loan - Trung Quốc)",
+        "Mã CN": "127(CTBC)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    },
+    {
+        "TT": 26,
+        "Trường / Chương trình": "Chương trình CTBC",
+        "Mã Ngành": 7510205,
+        "Ngành": "Ngành Công nghệ Kỹ thuật Ô tô",
+        "Chuyên ngành": "Công nghệ Kỹ thuật Ô tô (Đài Loan - Trung Quốc)",
+        "Mã CN": "117(CTBC)",
+        "Tổ hợp xét tuyển": "A00, A01, D01, C01, C02, X26"
+    }
+]
