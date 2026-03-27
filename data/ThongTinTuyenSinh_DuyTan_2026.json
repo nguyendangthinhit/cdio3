@@ -1,0 +1,57 @@
+{
+  "thong_tin_tuyen_sinh_DTU_2026": {
+    "ma_truong": "DDT",
+    "vung_tuyen_sinh": "Tuyển sinh trong nước và nước ngoài",
+    "doi_tuong_tuyen_sinh": [
+      "Người đã được công nhận tốt nghiệp THPT, trung học nghề của Việt Nam hoặc của nước ngoài được công nhận trình độ tương đương",
+      "Người đã có bằng tốt nghiệp trung cấp ngành nghề thuộc cùng nhóm ngành dự tuyển và đã hoàn thành đủ yêu cầu khối lượng kiến thức văn hóa cấp THPT"
+    ],
+    "thoi_gian_nhan_ho_so": {
+      "xet_tuyen_thang": "Từ ngày ra thông báo đến 30/06/2026",
+      "cac_phuong_thuc_con_lai": "Theo quy chế tuyển sinh của Bộ GDĐT",
+      "thi_mon_nang_khieu": {
+        "ve_my_thuat": {
+          "hinh_thuc": "Thi tập trung, trên giấy",
+          "dot_1": {
+            "han_nop_ho_so": "17h00 ngày 10/04/2026",
+            "ngay_thi": "19/04/2026 (Chủ Nhật)"
+          },
+          "dot_2": {
+            "han_nop_ho_so": "17h00 ngày 12/06/2026",
+            "ngay_thi": "21/06/2026 (Chủ Nhật)"
+          }
+        },
+        "thanh_nhac": {
+          "hinh_thuc": "Kiến thức âm nhạc tổng hợp & Chuyên ngành, Vấn đáp",
+          "dot_1": {
+            "han_nop_ho_so": "17h00 ngày 12/06/2026",
+            "ngay_thi": "21/06/2026 (Chủ Nhật)"
+          },
+          "dot_2": "Xét tuyển bổ sung (nếu có) theo Thông báo tuyển sinh năm 2026"
+        },
+        "le_phi": "300.000 đồng/môn thi"
+      }
+    },
+    "thoi_gian_nhap_hoc": "Theo thời gian quy định của Bộ Giáo dục và Đào tạo",
+    "ho_so_nhap_hoc": [
+      "Bản chính Giấy báo Trúng tuyển nhập học (do ĐH Duy Tân cấp)",
+      "Bản chính Giấy chứng nhận kết quả thi Tốt nghiệp THPT năm 2026",
+      "01 bản sao công chứng Học bạ THPT",
+      "01 bản sao công chứng Bằng tốt nghiệp THPT (nếu đã tốt nghiệp trước năm 2025)",
+      "01 bản sao Giấy khai sinh",
+      "Bản sao giấy tờ xác nhận đối tượng và khu vực ưu tiên (nếu có)",
+      "Bản sao Giấy chứng nhận học sinh giỏi, đạt giải cuộc thi Khoa học Kỹ thuật (nếu có)",
+      "Bản sao chứng chỉ tiếng Anh IELTS/TOEIC/TOEFL IBT/ITP; tiếng Trung HSK; tiếng Hàn TOPIK (nếu có)",
+      "Bản sao Giấy xác nhận đăng ký nghĩa vụ quân sự (đối với Nam giới còn trong độ tuổi)"
+    ],
+    "thong_tin_lien_he": {
+      "dia_chi": "254 Nguyễn Văn Linh, Phường Thanh Khê, TP. Đà Nẵng",
+      "dien_thoai": ["(0236) 3650.403", "(0236) 3827.111", "(0236) 2243.775"],
+      "fax": "(0236) 3650.443",
+      "hotline": ["1900.2252", "0905.294.390", "0905.294.391"],
+      "facebook": "tuyensinhDTU",
+      "zalo": ["0905.294.390", "0905.294.391"],
+      "website": "https://tuyensinh.duytan.edu.vn"
+    }
+  }
+}
