@@ -2,8 +2,8 @@ import json
 import os
 
 # 1. Cấu hình đường dẫn
-source_dir = r"D:\py\git\CDIO_3\data\Tu_van_tuyen_sinh"
-output_file_name = "data_Tu_van_tuyen_sinh.json"
+source_dir = r"D:\py\git\CDIO_3\data\So_sanh_va_dinh_huong_nghe_nghiep"
+output_file_name = "So_sanh_va_dinh_huong_nghe_nghiep.json"
 output_path = os.path.join(source_dir, output_file_name)
 
 merged_data = {}
