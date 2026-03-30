@@ -1,0 +1,203 @@
+.banner__slide {
+  &:hover .owl-theme .owl-controls {
+    opacity: 1;
+  }
+
+  .owl-theme .owl-controls {
+    position: absolute;
+    width: 100%;
+    top: 43%;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    .owl-nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 40px; /* Offset buttons from edge */
+
+      .owl-prev, .owl-next {
+        pointer-events: auto;
+        color: #fff;
+        width: 40px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 36px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        border-radius: 4px;
+
+        &:hover {
+          
+        }
+      }
+    }
+  }
+}
+
+.banner {
+  max-height: 500px;
+  max-width: 100%;
+  background-color: #f0f0f1;
+  overflow: hidden; /* Hide extra static items if not using carousel JS */
+
+  .item {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position-x: center !important;
+    background-position-y: top !important;
+    height: 100%;
+    min-height: 500px;
+    position: relative;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .cover {
+      padding: 75px 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+
+      .header-content {
+        position: relative;
+        padding: 20px 50px;
+        overflow: hidden;
+        max-width: 50%;
+        background: rgba(0, 0, 0, 0.4);
+
+        .line {
+          content: "";
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          position: absolute;
+          border: 9px solid #fff;
+          clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+          -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+        }
+
+        h2 {
+          font-weight: 300;
+          font-size: 35px;
+          color: #fff;
+          position: relative;
+          z-index: 9999;
+        }
+
+        h1 {
+          font-size: 56px;
+          font-weight: 600;
+          margin: 5px 0 20px;
+          word-spacing: 3px;
+          color: #fff;
+          position: relative;
+          z-index: 9999;
+        }
+
+        .intro {
+          font-weight: 300;
+          line-height: 23px;
+          color: #fff;
+          position: relative;
+          z-index: 9999;
+        }
+      }
+    }
+  }
+
+  /* Owl Carousel Active State Animations */
+  .owl-item.active {
+    h1, h2 {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: fadeInDown;
+      animation-delay: 0.3s;
+    }
+    .intro {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: fadeInUp;
+      animation-delay: 0.3s;
+    }
+    .line {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: fadeInLeft;
+      animation-delay: 0.3s;
+    }
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 0;
+    display: block;
+
+    span {
+      font-size: 25px;
+      display: block;
+      padding: 20px 0;
+      color: #fff;
+      font-family: "Roboto Bold", Helvetica Neue, Helvetica, Arial, sans-serif;
+
+      &:nth-child(2) {
+        font-size: 30px;
+        color: #a62823;
+      }
+    }
+  }
+}
+
+.banner-box {
+  position: absolute;
+  top: 20%;
+  z-index: 9990;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
