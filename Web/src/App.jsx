@@ -1,17 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
-import FormRegister from './components/FormRegister/FormRegister';
-import Footer from './components/Footer/Footer';
+import DashboardPage from './pages/DashboardPage/DashboardPage';
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      <FormRegister />
-      <Footer />
+      <DashboardPage />
     </>
   );
 }

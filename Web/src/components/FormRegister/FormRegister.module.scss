@@ -1,6 +1,12 @@
 .form-registor {
   background-color: #f7f7f7;
   font-size: 0.9rem;
+  flex-direction: inherit;
+
+  :global(.row.card) {
+    flex-direction: row;
+  }
+
 
   :global(.form-control) {
     font-size: 0.9rem;
