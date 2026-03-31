@@ -46,30 +46,6 @@ const Header = () => {
           <nav className={styles["navigation-dtu"]}>
             <ul className={styles["nav-dtu"]}>
               <li>
-                <a href="/introduction">GIỚI THIỆU</a>
-                <div className={styles["dropdown-menu-container"]}>
-                  <ul className={styles["dropdown-menu"]}>
-                    <li><a href="/introduction">Tổng Quan</a></li>
-                    <li><a href="/thong-diep-cua-hieu-truong-34l">Thông điệp của Hiệu Trưởng</a></li>
-                    <li><a href="/history">Lịch sử</a></li>
-                    <li><a href="/missions-and-visions">Sứ mạng &amp; Tầm nhìn</a></li>
-                    <li><a href="/achievements-and-rankings">Thành tựu &amp; Xếp hạng</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a href="/dtu-news">TIN TỨC &amp; SỰ KIỆN</a>
-                <div className={styles["dropdown-menu-container"]}>
-                  <ul className={styles["dropdown-menu"]}>
-                    <li><a href="/announcements">Thông báo</a></li>
-                    <li><a href="/dtu-news">Tin tức DTU</a></li>
-                    <li><a href="/faculty-news">Tin tức SCA</a></li>
-                    <li><a href="/events">Sự kiện</a></li>
-                    <li><a href="/thong-tin-tuyen-dung-0ui">Thông tin Tuyển dụng</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
                 <a href="/programs">CHƯƠNG TRÌNH</a>
                 <div className={styles["dropdown-menu-container"]}>
                   <ul className={styles["dropdown-menu"]}>
@@ -89,7 +65,7 @@ const Header = () => {
                 </div>
               </li>
               <li>
-                <a href="/ban-giam-hieu">ĐƠN VỊ</a>
+                <a href="/ban-giam-hieu">HỌC BỔNG</a>
                 <div className={styles["dropdown-menu-container"]}>
                   <ul className={styles["dropdown-menu"]}>
                     <li><a href="/ban-giam-hieu">Ban Giám Hiệu</a></li>
@@ -102,29 +78,7 @@ const Header = () => {
                     <li><a href="/iot-lab-h1e">-- IOT LAB</a></li>
                   </ul>
                 </div>
-              </li>
-              <li>
-                <a href="/luan-van-luan-an-p00">NGHIÊN CỨU</a>
-                <div className={styles["dropdown-menu-container"]}>
-                  <ul className={styles["dropdown-menu"]}>
-                    <li><a href="/luan-van-luan-an-p00">Luận văn, Luận án, NCKH</a></li>
-                    <li><a href="/research-center">Các Trung tâm &amp; Viện Nghiên cứu</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a href="/library-services">CƠ SỞ VẬT CHẤT</a>
-                <div className={styles["dropdown-menu-container"]}>
-                  <ul className={styles["dropdown-menu"]}>
-                    <li><a href="/library-services">Dịch vụ Thư viện</a></li>
-                    <li><a href="/classrooms">Phòng học</a></li>
-                    <li><a href="/laboratories-workshops">Phòng thí nghiệm &amp; Xưởng</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <a href="/contact">LIÊN HỆ</a>
-              </li>
+              </li>  
             </ul>
           </nav>
 
