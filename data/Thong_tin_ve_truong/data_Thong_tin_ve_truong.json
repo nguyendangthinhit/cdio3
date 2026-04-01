@@ -1,0 +1,292 @@
+{
+    "Cac_chuong_trinh_trao_doi_sinh_vien_tieu_bieu": [
+        {
+            "Giới thiệu chung": "Hoạt động trao đổi sinh viên (Student Exchange) là một trong những thế mạnh đặc trưng của Đại học Duy Tân nhằm đào tạo \"Công dân toàn cầu\". Với mạng lưới đối tác tại hơn 30 quốc gia, chương trình cho phép sinh viên DTU trải nghiệm môi trường giáo dục tiên tiến tại nước ngoài trong khi vẫn duy trì tiến độ học tập tại Việt Nam thông qua cơ chế công nhận tín chỉ tương đương.\nĐiểm nổi bật của các chương trình này là chính sách miễn học phí tại trường đối tác và các gói hỗ trợ sinh hoạt phí từ các quỹ học bổng quốc tế, giúp giảm bớt gánh nặng tài chính và mở ra cơ hội tiếp cận văn hóa, ngôn ngữ và mạng lưới nghề nghiệp toàn cầu cho sinh viên mọi khối ngành."
+        },
+        {
+            "Nhóm Chương trình": "Trao đổi Học thuật Đông Á",
+            "Đối tác chiến lược": "ĐH Sejong, Dong-A, Chodang (Hàn Quốc); ĐH IFTM (Macao)",
+            "Nội dung & Đặc điểm nổi bật": "Sinh viên học các môn chuyên ngành (Du lịch, CNTT, Kinh doanh) bằng tiếng Anh hoặc tiếng bản ngữ.",
+            "Thời gian & Quyền lợi": "1 - 2 học kỳ; Miễn học phí; Chuyển đổi tín chỉ về DTU."
+        },
+        {
+            "Nhóm Chương trình": "Nối kết ASEAN (P2A)",
+            "Đối tác chiến lược": "Mạng lưới các ĐH Đông Nam Á (Thái Lan, Indonesia, Malaysia,...)",
+            "Nội dung & Đặc điểm nổi bật": "Hành trình di động qua các nước ASEAN để tìm hiểu văn hóa, kinh tế và rèn luyện kỹ năng làm việc nhóm đa quốc gia.",
+            "Thời gian & Quyền lợi": "1 - 2 tuần (ngắn hạn); Chi phí thấp, trải nghiệm đa dạng."
+        },
+        {
+            "Nhóm Chương trình": "Learning Express",
+            "Đối tác chiến lược": "Singapore Polytechnic (Singapore)",
+            "Nội dung & Đặc điểm nổi bật": "Sinh viên phối hợp cùng sinh viên Singapore thực hiện các dự án cộng đồng dựa trên tư duy thiết kế (Design Thinking).",
+            "Thời gian & Quyền lợi": "2 - 4 tuần; Được tài trợ một phần chi phí; Cấp chứng chỉ quốc tế."
+        },
+        {
+            "Nhóm Chương trình": "Học bổng SEED (Canada)",
+            "Đối tác chiến lược": "Các Đại học tại Canada (vùng Alberta, Ontario)",
+            "Nội dung & Đặc điểm nổi bật": "Dành cho sinh viên xuất sắc các ngành phát triển bền vững, môi trường, kinh tế.",
+            "Thời gian & Quyền lợi": "1 học kỳ; Học bổng toàn phần bao gồm vé máy bay và sinh hoạt phí."
+        },
+        {
+            "Nhóm Chương trình": "Thực tập Lâm sàng Y khoa",
+            "Đối tác chiến lược": "ĐH Kanazawa (Nhật Bản), ĐH Kaohsiung (Đài Loan)",
+            "Nội dung & Đặc điểm nổi bật": "Sinh viên khối ngành Sức khỏe thực tập trực tiếp tại các bệnh viện đại học hiện đại ở nước ngoài.",
+            "Thời gian & Quyền lợi": "1 - 3 tháng; Tiếp cận công nghệ y tế tiên tiến nhất thế giới."
+        },
+        {
+            "Nhóm Chương trình": "Hợp tác TF-SCALE",
+            "Đối tác chiến lược": "Temasek Polytechnic (Singapore)",
+            "Nội dung & Đặc điểm nổi bật": "Tập trung vào kỹ năng lãnh đạo, đổi mới sáng tạo và chuyển đổi số trong khu vực.",
+            "Thời gian & Quyền lợi": "3 - 4 tuần; Học bổng hỗ trợ từ quỹ Temasek Foundation."
+        },
+        {
+            "Nhóm Chương trình": "Trao đổi Văn hóa Châu Âu",
+            "Đối tác chiến lược": "ĐH Lille (Pháp), ĐH West of England (Anh)",
+            "Nội dung & Đặc điểm nổi bật": "Trải nghiệm môi trường giáo dục hàn lâm tại Châu Âu cho khối ngành Quản trị và Ngôn ngữ.",
+            "Thời gian & Quyền lợi": "6 tháng - 1 năm; Cơ hội nhận bằng đôi hoặc chuyển tiếp học thạc sĩ."
+        }
+    ],
+    "Chuong_trinh_dao_tao_hop_tac_chien_luoc": [
+        {
+            "Tên Chương trình / Đối tác": "Samsung Innovation Campus (SIC)",
+            "Khối ngành": "CNTT, Điện tử, Đồ họa",
+            "Giới thiệu nội dung đào tạo": "Đào tạo chuyên sâu về các công nghệ cốt lõi của Cách mạng Công nghiệp 4.0 như Internet vạn vật (IoT), Trí tuệ nhân tạo (AI), Dữ liệu lớn (Big Data) và kỹ năng lập trình cơ bản.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ hoàn thành chương trình từ Samsung; Cơ hội thực tập và ưu tiên tuyển dụng tại Samsung R&D."
+        },
+        {
+            "Tên Chương trình / Đối tác": "Panasonic Air Conditioning",
+            "Khối ngành": "Điện - Điện tử, Nhiệt lạnh",
+            "Giới thiệu nội dung đào tạo": "Đào tạo thực hành lắp đặt, bảo trì và vận hành các hệ thống điều hòa không khí công nghiệp hiện đại ngay tại phòng Lab chuyên dụng do Panasonic tài trợ.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ Panasonic Fresher; Ưu tiên tuyển dụng vào hệ thống bảo hành/kỹ thuật của hãng."
+        },
+        {
+            "Tên Chương trình / Đối tác": "VinFast EV Workshop",
+            "Khối ngành": "Công nghệ Ô tô, Cơ khí",
+            "Giới thiệu nội dung đào tạo": "Sinh viên được đào tạo về cấu tạo hệ thống pin, động cơ điện và công nghệ điều khiển trên các dòng xe điện thông minh (VF9, VF6) bằng tài liệu kỹ thuật chính hãng VinFast.",
+            "Đầu ra & Chứng chỉ": "Kỹ năng xử lý xe điện (EV) thực tế; Cơ hội làm việc tại các xưởng dịch vụ hoặc tổ hợp nhà máy VinFast."
+        },
+        {
+            "Tên Chương trình / Đối tác": "KICC (Hàn Quốc)",
+            "Khối ngành": "CNTT, Phần mềm",
+            "Giới thiệu nội dung đào tạo": "Huấn luyện kỹ năng lập trình thực chiến và quy trình quản lý dự án theo tiêu chuẩn các tập đoàn ICT Hàn Quốc, giúp sinh viên làm quen với môi trường làm việc quốc tế.",
+            "Đầu ra & Chứng chỉ": "Kết nối việc làm trực tiếp với mạng lưới các đối tác thuộc Trung tâm Xúc tiến IT Hàn Quốc."
+        },
+        {
+            "Tên Chương trình / Đối tác": "Techzen AI Academy",
+            "Khối ngành": "Khoa học máy tính, AI",
+            "Giới thiệu nội dung đào tạo": "Đào tạo kỹ năng ứng dụng AI trong lập trình và xử lý dữ liệu thông qua các \"bài toán\" thực tế từ các dự án phần mềm đang triển khai của doanh nghiệp.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ thực tập thực tế; Ưu tiên tuyển dụng vào các vị trí kỹ sư AI/Phần mềm tại Techzen."
+        },
+        {
+            "Tên Chương trình / Đối tác": "Microsoft IT Academy",
+            "Khối ngành": "CNTT, Đồ họa",
+            "Giới thiệu nội dung đào tạo": "Cung cấp lộ trình học tập chuẩn quốc tế về điện toán đám mây, bảo mật và các công cụ năng suất dựa trên hệ sinh thái phần mềm bản quyền của Microsoft.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ quốc tế (Azure, AI Fundamentals, MCP) có giá trị toàn cầu."
+        },
+        {
+            "Tên Chương trình / Đối tác": "Cisco Networking Academy",
+            "Khối ngành": "Mạng & Viễn thông",
+            "Giới thiệu nội dung đào tạo": "Huấn luyện thiết kế, xây dựng và quản trị hạ tầng mạng trên các thiết bị định tuyến (Router/Switch) thực tế của Cisco dưới sự hướng dẫn của các chuyên gia.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ CCNA, CCNP quốc tế - \"tiêu chuẩn vàng\" trong ngành quản trị mạng."
+        },
+        {
+            "Tên Chương trình / Đối tác": "MISA Accounting",
+            "Khối ngành": "Kế toán, Tài chính",
+            "Giới thiệu nội dung đào tạo": "Thực hành nghiệp vụ kế toán, thuế và quản trị tài chính doanh nghiệp trực tiếp trên phần mềm MISA bản quyền mới nhất.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ sử dụng thành thạo phần mềm MISA, đáp ứng yêu cầu của hơn 250.000 doanh nghiệp tại Việt Nam."
+        },
+        {
+            "Tên Chương trình / Đối tác": "IHG/Marriott (Học kỳ DN)",
+            "Khối ngành": "Du lịch, Khách sạn",
+            "Giới thiệu nội dung đào tạo": "Đào tạo nghiệp vụ buồng phòng, tiền sảnh và quản trị nhà hàng theo tiêu chuẩn 5 sao quốc tế trực tiếp tại các Resort/Khách sạn cao cấp.",
+            "Đầu ra & Chứng chỉ": "Chứng chỉ thực tập cao cấp; Cơ hội trở thành nhân viên chính thức tại các chuỗi khách sạn toàn cầu."
+        },
+        {
+            "Tên Chương trình / Đối tác": "ACCA (Anh quốc)",
+            "Khối ngành": "Kiểm toán, Kế toán",
+            "Giới thiệu nội dung đào tạo": "Lồng ghép các module đào tạo về chuẩn mực báo cáo tài chính quốc tế và đạo đức nghề nghiệp theo khung năng lực của Hiệp hội Kế toán công chứng Anh.",
+            "Đầu ra & Chứng chỉ": "Miễn giảm các môn thi và nhận chứng chỉ thành phần của ACCA có giá trị hành nghề quốc tế."
+        }
+    ],
+    "chuyen_vien_tu_van": [
+        {
+            "TT": 1,
+            "Tên": "Trương Đức Quốc Huy",
+            "SĐT": 399984665,
+            "Email": "johnnypors2@gmail.com",
+            "Chương trình tư vấn": "HP, Normal"
+        },
+        {
+            "TT": 2,
+            "Tên": "Nguyễn Đăng Thịnh",
+            "SĐT": 708173610,
+            "Email": "nguyendangthinh.it@gmail.com",
+            "Chương trình tư vấn": "TROY"
+        },
+        {
+            "TT": 3,
+            "Tên": "Nguyễn Bá Thiện",
+            "SĐT": 707908942,
+            "Email": "nguyenbathien.3112@gmail.com",
+            "Chương trình tư vấn": "CMU"
+        },
+        {
+            "TT": 4,
+            "Tên": "Quách Tú Mỹ",
+            "SĐT": 764483786,
+            "Email": "qtumy1825@gmail.com",
+            "Chương trình tư vấn": "PSU, PNU"
+        },
+        {
+            "TT": 5,
+            "Tên": "Trương Duy Phúc Hưng",
+            "SĐT": 705129698,
+            "Email": "phuchungtruongduy@gmail.com",
+            "Chương trình tư vấn": "VJJ, CSU"
+        }
+    ],
+    "thong_tin_dai_hoc_duy_tan": [
+        {
+            "Nội dung": "Tên trường",
+            "Thông tin": "Đại học Duy Tân (DTU)",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Lịch sử hình thành",
+            "Thông tin": "Trường Đại học Duy Tân được thành lập vào ngày 11/11/1994 theo Quyết định Số 666/TTg của Thủ tướng Chính phủ.Nhà giáo Ưu tú Lê Công Cơ là Hiệu trưởng đầu tiên.Năm 2018, Tiến sĩ Lê Nguyên Bảo tiếp nhận và trở thành Hiệu trưởng tiếp theo của Trường Đại học Duy Tân.Ngày 07/10/2024 Trường Đại học Duy Tân được chuyển thành Đại học Duy Tân và là Đại học thứ 8 tại Việt Nam.",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Chủ tịch hội đồng quản trị",
+            "Thông tin": "Chủ tịch HĐQT: PGS. Lê Công Cơ. ",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Hiệu trưởng hiện tại",
+            "Thông tin": "Hiệu trưởng: con trai của thầy Lê Công Cơ (TS. Lê Nguyên Bảo)",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Loại hình",
+            "Thông tin": "Đại học tư thục đầu tiên & lớn nhất miền Trung",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Cơ sở đào tạo",
+            "Thông tin": "Cơ sở 03 Quang Trung, Q. Hải Châu, Tp. Đà Nẵng, Cơ sở K7/25 Quang Trung, Q. Hải Châu, Tp. Đà Nẵng, Cơ sở 137 Nguyễn Văn Linh, P. Nam Dương, Q. Hải Châu, Tp. Đà Nẵng. Cơ sở 254 Nguyễn Văn Linh, Q. Thanh Khê, Tp. Đà Nẵng, Cơ sở 209 Phan Thanh, Q. Thanh Khê, Tp. Đà Nẵng. Cơ sở 120 Hoàng Minh Thảo, Hòa Khánh Nam, Q. Liên Chiểu, Tp. Đà Nẵng. Cơ sở 78 Phan Văn Trị, Q. Cẩm Lệ, Đà Nẵng",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Trường/Viện/Khoa trực thuộc",
+            "Thông tin": "Trường Khoa học Máy tính, Trường Công nghệ & Kĩ Thuật, Khoa Y Dược, Trường Kinh tế & Kinh doanh, Trường Ngôn ngữ - Xã hội Nhân văn, Khoa Đào tạo Quốc tế, Trường Du lịch, Viện Quản lý Nam Khê,Trung tâm Kỹ thuật và Công nghệ Việt - Nhật.",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Hệ đào tạo",
+            "Thông tin": "Bậc Đại học: hơn 50 ngành (CNTT, Y-Dược, Du lịch, Kinh tế, Kiến trúc, Kỹ thuật, Ngôn ngữ...). Bậc Thạc sĩ: 13 ngành (Quản trị Kinh doanh, Kế toán, Khoa học máy tính, Kỹ thuật Xây dựng, Tổ chức Quản lý Dược, Quan hệ Quốc tế, Kỹ thuật Điện tử, Kỹ thuật Môi trường, Luật kinh tế, Tài chính Ngân hàng, Văn học, Quản trị Dịch vụ Du lịch và Lữ hành và Điều dưỡng quốc tế Đại học Fooyin (Đài Loan).). Bậc Tiến sĩ: 10 ngành (Kinh doanh, Kế toán, Khoa học Máy tính, Kỹ thuật Xây dựng, Quan hệ Quốc tế, Tài chính Ngân hàng, Tổ chức Quản lý Dược, Vật lý Lý thuyết và Vật lý Toán, Vật lý Chất rắn, Vật lý Nguyên tử và Hạt nhân.)",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Chương trình đào tạo",
+            "Thông tin": "Chương trình đại trà.\nChương trình tiên tiến & quốc tế.\nChương trình tài năng(HP).\nChương trình Việt-Nhật.\nChương trình Du học tại chỗ.",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Chỉ tiêu ",
+            "Thông tin": "gần 7000 (2026 )",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Số lượng tốt nghiệp",
+            "Thông tin": "~85.000 Tiến sĩ, Thạc sĩ, Bác sĩ, Dược sĩ, Kỹ sư, Kiến trúc sư, Cử nhân",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Tỉ lệ việc làm sau tốt nghiệp",
+            "Thông tin": "91,91% sau 1 năm",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Đội ngũ cán bộ - giảng viên",
+            "Thông tin": "1.553 CB-GV-NV; 1.096 giảng viên; 335 GS, PGS, TS (30,56%); ~200 GV quốc tế thỉnh giảng",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Hợp tác quốc tế",
+            "Thông tin": "Carnegie Mellon ( CMU), Pen State( PSU), CalState Fullerton ( CSU), Purdue Northwest ( PNU), Troy, Keuka; Chương trình Du học 2+2, 3+1, 1+1+2.",
+            "Unnamed: 2": "Carnegie Mellon ( CMU): https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=461\nPen State( PSU): https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=462 \nCalState Fullerton ( CSU): https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=463\nPurdue Northwest ( PNU): https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=819\nTroy: https://duytan.edu.vn/news/NewsDetail.aspx?id=4994&pid=2064&lang=vi-VN\nKeuka: https://duytan.edu.vn/news/NewsDetail.aspx?id=4994&pid=2064&lang=vi-VN\nDu học 3+1: https://duytan.edu.vn/tuyen-sinh/Page/EducationDetail.aspx?id=71\nDu học 2+2: https://duytan.edu.vn/tuyen-sinh/Page/EducationDetail.aspx?id=81\nDu học 1+1+2: https://duytan.edu.vn/tuyen-sinh/Page/EducationDetail.aspx?id=62"
+        },
+        {
+            "Nội dung": "Xếp hạng & Kiểm định",
+            "Thông tin": "QS 2026 Xếp hạng Đại học: Top 500;\nABET (CNTT, Điện - Điện tử); \nUNWTO TedQual (Du lịch);\nQS 2026 Xếp hạng ngành đào tạo: Quản lý Khách sạn & Giải trí (Top 51-100), Kiến trúc & Môi trường Xây dựng (Top 101-150), Khoa học Máy tính & Hệ thống Thông tin (Top 201-250), Khoa học Môi trường (Top 201-250), Kỹ thuật Xây dựng & Kết cấu (Top 201-275), Dược & Dược lý (Top 251-300), Kỹ thuật Điện – Điện tử (Top 251-300), Kinh tế học & Kinh tế lượng (Top 351-400), Y học (Top 451-500), Vật lý & Thiên văn học (Top 201-250), Hóa học (Top 301-350), Khoa học Vật liệu (Top 301-350), Cơ khí – Hàng không & Quản lý (Top 401-450);\nTimes Higher Education (THE) 2026: Khoa học Máy tính (Top 501-600), Kỹ thuật – Công nghệ (Top 301-400), Kinh doanh & Kinh tế (Top 601-800), Khoa học Xã hội, Y tế – Sức khỏe (Top 401-500), Khoa học Vật lý (Top 251-300), Khoa học Sự sống (Top 301-400).",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Thành tích sinh viên",
+            "Thông tin": "Sinh viên Đặng Xuân Nam với đề tài \"Quy hoạch không gian kiến trúc cảnh quan tuyến Nguyễn Văn Linh – Cầu Rồng, TP Đà Nẵng\" giành giải Nhất Giải thưởng Loa Thành 2010. Năm 2018, sinh viên Hồ Phụng Hoàn giành giải nhì với đề tài \"Cầu Sông Hiếu\" tại Giải thưởng Loa Thành.\nVô địch CDIO Academy 2013, Cup Vô địch CDIO Academy tại Phần Lan năm 2016, CDIO Academy tại Canada năm 2017, CDIO Academy tại Nhật Bản năm 2018,…\nNăm 2014, IDEERS DTU của Đại học Duy Tân - đội tuyển duy nhất của Việt Nam đã giành Cúp Vô địch IDEERS châu Á - Thái Bình Dương trong cuộc thi 'Thiết kế Mô hình Nhà chống Động đất' (IDEERS) lần thứ 14 tại Đài Loan.\nTrần Bảo Toàn đạt giải nhất cuộc thi ERC 2019 (Emotion Recognition Challenge) với mô hình nhận diện cảm xúc.\nGiải Nhì Cuộc thi 'Sinh viên với An toàn thông tin ASEAN' do Hiệp hội An toàn thông tin VN (VNISA) phối hợp với Cục Công nghệ thông tin (Bộ GD-ĐT) và Cục An toàn Thông tin (Bộ TTTT) tổ chức.\nGiải Nhì tại ARAB Security Cyber Wargames ở Ai Cập.\nGiải Ba Cuộc thi Insomnihack CTF Finals ở Thụy Sĩ.\nGiải Á quân 1 GO GREEN 2022.\nBộ sưu tập mở màn ThaiLand Fashion Week có thiết kế của sinh viên ĐH Duy Tân.\nGiải nhất Hackathon 2022 với ứng dụng 'Thử đồ không cần chạm'.\nGiải Nhì tại ARAB Security Cyber Wargames ở Ai Cập.\n100% sinh viên Trường Khoa học máy tính ĐH Duy Tân có việc làm khi ra trường.\nSinh viên Duy Tân đạt top 40 cô gái đẹp nhất Hoa hậu Thế giới Việt Nam 2023.\nSinh viên Thiết kế Thời trang ĐH Duy Tân góp sức kiến tạo trang phục cho nhiều show thời trang.\nKình ngư SV Duy Tân giành HCV và HCB tại SEA Games 32.\nSinh viên Duy Tân mang về tấm huy chương vàng đầu tiên môn Kickboxing cho đoàn thể thao Việt Nam ở SEA Games 32.\nSinh viên Duy Tân đạt giải Á quân 2 tại Cuộc thi tài năng Âm nhạc Việt mùa 4.\nSinh viên Duy Tân trúng tuyển \"Chương trình Internship Nhật Bản\".\nĐại sứ sinh viên Duy Tân 2023 nhận học bổng tham dự Hội thảo Mạng lưới Thanh niên ASEAN - Hàn Quốc.\nSinh viên ĐH Duy Tân nhận Học bổng Hòa Bình Blue Compass trị giá 100 triệu đồng.\nNhóm nghiên cứu ĐH Duy Tân đồng chủ trì một công bố quốc tế về lĩnh vực Khoa học Khảo cổ.\nSinh viên Duy Tân giành giải Ba Cuộc thi Đấu trường Chứng khoán Sinh viên Toàn quốc 2023.\nCâu lạc bộ Karatedo ĐH Duy Tân đạt 27 huy chương và giải Nhất toàn đoàn Giải Nghĩa Dũng Karatedo Đà Nẵng lần thứ IV.\nỨng dụng Hỗ trợ cứu nạn của SV ĐH Duy Tân đứng nhất cuộc thi OSM Hackfest 2023.\nSinh viên ĐH Duy Tân giành cả giải Nhất và Nhì ở Samsung Innovation Campus (SIC) 2023.\nSV ĐH Duy Tân đứng Nhì tại Diễn tập quốc tế APCERT 2023 dành cho các cơ quan, doanh nghiệp.\nSinh viên ĐH Duy Tân giành giải thưởng Nghiên cứu Khoa học cấp Bộ 2023.\nSinh viên ĐH Duy Tân giành giải Ba cuộc thi 'Tìm kiếm Tài năng Thiết kế và Lập trình Game'.\nSinh viên ĐH Duy Tân đứng Nhì Cuộc thi An ninh Mạng ASEAN ở Indonesia.\nSinh viên ĐH Duy Tân nhận danh hiệu Sao tháng Giêng, Sinh viên 5 tốt cấp Trung ương.\nSinh viên ĐH Duy Tân nghiên cứu nấm quý và tốt nghiệp với bài báo Q1 cùng 'Poster Xuất sắc' tại Hội nghị về Nấm.",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Giải thưởng giảng viên",
+            "Thông tin": "Quả cầu Vàng 2020, Make in Vietnam, Thanh niên Kiến tạo 2021…",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Danh hiệu & Sứ mệnh",
+            "Thông tin": "Huân chương Lao động hạng Nhất, hạng Ba; Sứ mạng: Đào tạo gắn với nghiên cứu KH-CN, sinh viên hội nhập toàn cầu",
+            "Unnamed: 2": null
+        },
+        {
+            "Nội dung": "Khẩu hiệu",
+            "Thông tin": "Tất cả vì quyền lợi học tập, nghiên cứu và việc làm của sinh viên",
+            "Unnamed: 2": null
+        }
+    ],
+    "truong_khoa_truc_thuoc": [
+        {
+            "Trường/Khoa trực thuộc": "Trường Công nghệ & Kĩ thuật ( SET)",
+            "Các nhóm ngành đào tạo": "Kỹ thuật Điện – Điện tử, Cơ khí – Cơ điện tử, Kiến trúc – Xây dựng, và Môi trường.",
+            "Chương trình đào tạo": "Chương trình đại trà, Chương trình quốc tế chuẩn PNU, Chương trình quốc tế chuẩn CSU"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Trường khoa học máy tính",
+            "Các nhóm ngành đào tạo": "Khoa học Máy tính & Phần mềm, Mạng & An toàn thông tin, Dữ liệu & Trí tuệ nhân tạo",
+            "Chương trình đào tạo": "Chương trình đại trà, Chương trình quốc tế chuẩn CMU, Chương trình tài năng"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Trường Kinh tế & Kinh doanh",
+            "Các nhóm ngành đào tạo": "Kinh doanh & Quản lý, Tài chính – Ngân hàng, Kế toán – Kiểm toán, Thương mại – Du lịch, Luật Kinh tế.",
+            "Chương trình đào tạo": "Chương trình đại trà, Chương trình quốc tế chuẩn PSU, Chương trình tài năng"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Trường Ngôn ngữ - Xã hội Nhân văn",
+            "Các nhóm ngành đào tạo": "Ngoại ngữ (Anh, Trung, Hàn, Nhật), Văn học & Truyền thông, Quan hệ Quốc tế, và Luật.",
+            "Chương trình đào tạo": "Chương trình đại trà, Chương trình tài năng"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Trường Du Lịch",
+            "Các nhóm ngành đào tạo": "Quản trị Khách sạn, Quản trị Du lịch & Lữ hành, Hướng dẫn Du lịch Quốc tế, Quản trị Sự kiện & Giải trí, Du lịch (Smart Tourism & Văn hóa Du lịch), Quản trị Nhà hàng & Dịch vụ Ăn uống.",
+            "Chương trình đào tạo": "Chương trình đại trà, Chương trình quốc tế chuẩn PSU, Chương trình tài năng"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Viện Quản lí Nam Khuê ",
+            "Các nhóm ngành đào tạo": "Quản trị Doanh nghiệp, Marketing & Quản trị Chiến lược, Quản trị Tài chính, và Logistics & Quản lý Chuỗi cung ứng",
+            "Chương trình đào tạo": "Chương trình đại trà, Chương trình tài năng"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Khoa Y dược",
+            "Các nhóm ngành đào tạo": "Đa khoa, Răng – Hàm – Mặt, Dược , Điều dưỡng, Kỹ thuật Y sinh, và Công nghệ Sinh học",
+            "Chương trình đào tạo": "Chương trình đại trà"
+        },
+        {
+            "Trường/Khoa trực thuộc": "Khoa Đào tạo Quốc tế",
+            "Các nhóm ngành đào tạo": "Công nghệ Thông tin, Kinh tế – Quản trị – Du lịch, Kỹ thuật – Công nghệ, Kiến trúc – Xây dựng, Du học Tại chỗ & Du học Kết hợp.",
+            "Chương trình đào tạo": "Chương trình Du học 2+2, 3+1, 1+1+2, Chương trình quốc tế chuẩn: PNU, CSU, CMU, PSU, Chương trình du học tại chỗ: Troy, Keuka."
+        },
+        {
+            "Trường/Khoa trực thuộc": "Trung tâm kỹ thuật và công nghệ Việt - Nhật ",
+            "Các nhóm ngành đào tạo": "Công nghệ thông tin; Kỹ thuật – Công nghệ; Xây dựng – Kiến trúc; Mỹ thuật ứng dụng; Công nghệ sinh học – Thực phẩm; Khoa học sức khỏe.",
+            "Chương trình đào tạo": "Chương trình Việt - Nhật"
+        }
+    ]
+}
