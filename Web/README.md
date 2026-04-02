@@ -8,7 +8,7 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đã cài đ
 ## Hướng Dẫn Tải Thư Viện (Cài Đặt)
 
    ```bash
-   cd "e:\CDIO_3\cdio3\Web"
+   cd "e:\cdio3\Web"
    ```
  Chạy lệnh sau để tải toàn bộ thư viện cần thiết:
    ```bash
