@@ -1,8 +1,13 @@
 [
   {
+    "check_result": "```json\n{\n  \"decision\": \"group_2\",\n  \"type\": null,\n  \"response_data\": null,\n  \"routing_info\": {\n    \"intent\": \"tuyen_sinh\",\n    \"target_agents\": [\"admission_agent\", \"info_agent\"],\n    \"entities\": [\"big data\"]\n  }\n}\n```",
+    "nd tin nhắn": "học phí ngành big data",
+    "id khách": "26517066291246790"
+  },
+  {
     "user_id": "26517066291246790",
-    "question": "học phí ngành trí tuệ nhân tạo",
-    "answer": "Ngành Trí tuệ Nhân tạo (HP) có học phí 940.000 VNĐ/tháng, 15.040.000 VNĐ/kỳ và 30.080.000 VNĐ/năm.\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
-    "timestamp": "2026-04-02T16:30:54.196Z"
+    "question": "học phí ngành big data",
+    "answer": "Học phí ngành Big Data & Machine Learning (HP) là:\nHọc phí theo kỳ: 14.000.000 VNĐ\nHọc phí theo năm: 28.000.000 VNĐ\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
+    "timestamp": "2026-04-02T16:39:36.771Z"
   }
 ]
