@@ -242,6 +242,134 @@
             "Unnamed: 2": null
         }
     ],
+    "thu_vien_dai_hoc_duy_tan": {
+        "ten_to_chuc": "Thư viện Đại học Duy Tân",
+        "tong_quan": {
+            "mo_ta": "Thư viện của Đại học Duy Tân là một hệ thống gồm nhiều cơ sở, trong đó nổi bật là thư viện tại cơ sở 3 Quang Trung.",
+            "dinh_huong": "Hệ thống được xây dựng theo hướng hiện đại, phục vụ đồng thời nhu cầu học tập, nghiên cứu và sinh hoạt học thuật của sinh viên và giảng viên.",
+            "chuc_nang": "Không chỉ là nơi lưu trữ tài liệu mà còn được định hướng như một không gian học tập đa chức năng, phù hợp với xu hướng học tập của sinh viên hiện đại, đặc biệt là thế hệ Gen Z."
+        },
+        "quy_mo_tai_nguyen": {
+            "sach_in": 60000,
+            "tai_lieu_dien_tu": 200000,
+            "bo_sung_hang_nam": {
+                "so_luong": 1200,
+                "loai": "đầu sách ngoại văn"
+            },
+            "nguon_tai_lieu": {
+                "loai": [
+                    "Giáo trình và tài liệu học thuật quốc tế",
+                    "Sách chuyên ngành và tham khảo từ các nhà xuất bản lớn"
+                ],
+                "nha_xuat_ban": [
+                    "Oxford",
+                    "Cambridge",
+                    "MIT Press",
+                    "Routledge",
+                    "Cengage Learning",
+                    "Elsevier",
+                    "Wiley",
+                    "Pearson"
+                ]
+            },
+            "noi_dung_tai_lieu": {
+                "giao_trinh": true,
+                "sach_phuong_phap_hoc": [
+                    "CDIO",
+                    "PBL (Problem-Based Learning)",
+                    "Design Thinking",
+                    "Evidence-Based Learning"
+                ],
+                "luan_van_khoa_luan_luan_an": true,
+                "sach_ky_nang_giai_tri": true,
+                "tap_chi_chuyen_nganh": {
+                    "trong_nuoc": true,
+                    "nuoc_ngoai": true
+                },
+                "truyen_tranh": [
+                    "Manga Nhật",
+                    "Comics Mỹ (DC, Marvel)"
+                ]
+            }
+        },
+        "khong_gian_co_so_vat_chat": {
+            "mo_hinh": "Không gian mở, hiện đại, đa mục đích",
+            "cac_khu_chuc_nang": [
+                "Phòng đọc tổng hợp",
+                "Phòng đọc chuyên ngành",
+                "Phòng học nhóm",
+                "Phòng nghiên cứu cá nhân",
+                "Phòng họp và thuyết trình",
+                "Phòng đa phương tiện (nghe, nhìn, học ngoại ngữ)",
+                "Phòng lưu trữ tài liệu",
+                "Phòng xử lý nghiệp vụ"
+            ],
+            "dac_diem_noi_bat": [
+                "Không gian rộng rãi, thoáng",
+                "Trang bị công nghệ hiện đại",
+                "Hỗ trợ học tập cá nhân và làm việc nhóm",
+                "Cho phép tổ chức thuyết trình, trao đổi học thuật",
+                "Có khu vực giải trí và đọc sách nhẹ"
+            ]
+        },
+        "dinh_huong_triet_ly_van_hanh": {
+            "nen_tang": [
+                "Nhu cầu thực tế của sinh viên",
+                "Xu hướng học tập hiện đại",
+                "Mô hình học tập chủ động"
+            ],
+            "vai_tro": [
+                "Trung tâm học liệu phục vụ đào tạo",
+                "Không gian học tập linh hoạt",
+                "Hỗ trợ nghiên cứu và đổi mới sáng tạo"
+            ]
+        },
+        "trai_nghiem_nguoi_dung": {
+            "hinh_thuc_hoc_ho_tro": [
+                "Tự học",
+                "Học nhóm",
+                "Thuyết trình"
+            ],
+            "ket_hop_hoc_va_giai_tri": true,
+            "khu_vuc_check_in": true,
+            "trai_nghiem_thi_giac": true
+        },
+        "co_so_thu_vien": {
+            "tong_dien_tich_m2": 2026,
+            "so_co_so": 3,
+            "danh_sach": [
+                {
+                    "ten": "Cơ sở 1 – Nguyễn Văn Linh",
+                    "dia_chi": "254 Nguyễn Văn Linh, Đà Nẵng",
+                    "vi_tri_trong_toa_nha": "Phòng 607",
+                    "phuc_vu_khoi_nganh": [
+                        "Kinh tế",
+                        "Khoa học Xã hội & Nhân văn",
+                        "Ngôn ngữ"
+                    ]
+                },
+                {
+                    "ten": "Cơ sở 2 – Quang Trung",
+                    "dia_chi": "03 Quang Trung, Đà Nẵng",
+                    "vi_tri_trong_toa_nha": "Tầng 7",
+                    "phuc_vu_khoi_nganh": [
+                        "Kỹ thuật",
+                        "Công nghệ",
+                        "Du lịch"
+                    ]
+                },
+                {
+                    "ten": "Cơ sở 3 – Hoàng Minh Thảo",
+                    "dia_chi": "120 Hoàng Minh Thảo, Đà Nẵng",
+                    "vi_tri_trong_toa_nha": "Khu G",
+                    "phuc_vu_khoi_nganh": [
+                        "Khoa học Sức khỏe",
+                        "Tài liệu tổng hợp"
+                    ]
+                }
+            ]
+        }
+    },
     "truong_khoa_truc_thuoc": [
         {
             "Trường/Khoa trực thuộc": "Trường Công nghệ & Kĩ thuật ( SET)",
