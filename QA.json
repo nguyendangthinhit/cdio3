@@ -1,8 +1,13 @@
 [
   {
+    "check_result": "```json\n{\n  \"decision\": \"group_2\",\n  \"type\": null,\n  \"response_data\": null,\n  \"routing_info\": {\n    \"intent\": \"tuyen_sinh\",\n    \"target_agents\": [\n      \"admission_agent\",\n      \"info_agent\"\n    ],\n    \"entities\": [\n      \"marketing\",\n      \"học phí\"\n    ]\n  }\n}\n```",
+    "nd tin nhắn": "học phí ngành marketing",
+    "id khách": "26517066291246790"
+  },
+  {
     "user_id": "26517066291246790",
-    "question": "học phí ngành trí tuệ nhân tạo",
-    "answer": "Ngành Trí tuệ Nhân tạo (HP) có mức học phí 15.040.000 VNĐ/kỳ và 30.080.000 VNĐ/năm.\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
-    "timestamp": "2026-04-02T16:26:56.545Z"
+    "question": "học phí ngành marketing",
+    "answer": "Học phí ngành Quản trị Kinh doanh Marketing:\n\nHọc phí theo kỳ: 16,560,000 VNĐ\n\nHọc phí theo năm: 33,120,000 VNĐ\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
+    "timestamp": "2026-04-02T17:35:40.347Z"
   }
 ]
