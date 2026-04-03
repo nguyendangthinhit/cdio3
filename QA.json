@@ -1,13 +1,13 @@
 [
   {
-    "check_result": "```json\n{\n  \"decision\": \"group_2\",\n  \"type\": null,\n  \"response_data\": null,\n  \"routing_info\": {\n    \"intent\": \"tuyen_sinh\",\n    \"target_agents\": [\n      \"admission_agent\",\n      \"info_agent\"\n    ],\n    \"entities\": [\n      \"marketing\",\n      \"học phí\"\n    ]\n  }\n}\n```",
-    "nd tin nhắn": "học phí ngành marketing",
+    "check_result": "```json\n{\n  \"decision\": \"group_2\",\n  \"type\": null,\n  \"response_data\": null,\n  \"routing_info\": {\n    \"intent\": \"info\",\n    \"target_agents\": [\n      \"info_agent\",\n      \"admission_agent\"\n    ],\n    \"entities\": [\n      \"cơ sở\"\n    ]\n  }\n}\n```",
+    "nd tin nhắn": "trường mình có mấy cơ sở vậy nhỉ",
     "id khách": "26517066291246790"
   },
   {
     "user_id": "26517066291246790",
-    "question": "học phí ngành marketing",
-    "answer": "Học phí ngành Quản trị Kinh doanh Marketing:\n\nHọc phí theo kỳ: 16,560,000 VNĐ\n\nHọc phí theo năm: 33,120,000 VNĐ\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
-    "timestamp": "2026-04-02T17:35:40.347Z"
+    "question": "trường mình có mấy cơ sở vậy nhỉ",
+    "answer": "Trường Đại học Duy Tân tự hào có nhiều cơ sở đào tạo hiện đại để phục vụ tốt nhất cho việc học tập và nghiên cứu của sinh viên. Hiện tại, trường có các cơ sở sau:\n\nCơ sở 03 Quang Trung, Quận Hải Châu, TP. Đà Nẵng\nCơ sở K7/25 Quang Trung, Quận Hải Châu, TP. Đà Nẵng\nCơ sở 137 Nguyễn Văn Linh, P. Nam Dương, Q. Hải Châu, TP. Đà Nẵng\nCơ sở 254 Nguyễn Văn Linh, Q. Thanh Khê, TP. Đà Nẵng\nCơ sở 209 Phan Thanh, Q. Thanh Khê, TP. Đà Nẵng\nCơ sở 120 Hoàng Minh Thảo, Hòa Khánh Nam, Q. Liên Chiểu, TP. Đà Nẵng\nCơ sở 78 Phan Văn Trị, Q. Cẩm Lệ, Đà Nẵng\n\nBạn có muốn mình tư vấn thêm về một ngành học cụ thể hay phương thức xét tuyển của trường không nè?",
+    "timestamp": "2026-04-03T08:31:39.151Z"
   }
 ]
