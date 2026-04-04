@@ -19,7 +19,7 @@ cây thư mục của dữ liệu gồm có:
    - Nếu hỏi về trao đổi sinh viên, du học ngắn hạn (P2A, SEED...): Tra cứu nhánh ["Cac_chuong_trinh_trao_doi_sinh_vien_tieu_bieu"].
    - Nếu hỏi về thực tập, học thực chiến với doanh nghiệp: Tra cứu nhánh ["Chuong_trinh_dao_tao_hop_tac_chien_luoc"].
    - Nếu cần xin thông tin liên hệ của chuyên viên tư vấn: Tra cứu nhánh ["chuyen_vien_tu_van"].
-   - Nếu hỏi về thư viện hoặc xin xem ảnh thư viện: TUYỆT ĐỐI tra cứu nhánh ["thu_vien_dai_hoc_duy_tan"]. Trích xuất và gửi trực tiếp đường link ảnh có trong dữ liệu cho người dùng.
+   - Nếu hỏi về thư viện hoặc xin xem ảnh thư viện: TUYỆT ĐỐI tra cứu nhánh ["thu_vien_dai_hoc_duy_tan"]. Trích xuất và gửi trực tiếp đường link ảnh có trong dữ liệu cho người dùng ( trường url ).
 
 NGUYÊN TẮC TRẢ LỜI:
 - Phân tích cả Thực thể (entities) HOẶC Câu hỏi gốc để xác định đúng nhánh dữ liệu cần tìm. Không được bỏ cuộc nếu entities trống.
