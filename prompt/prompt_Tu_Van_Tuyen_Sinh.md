@@ -39,4 +39,4 @@ QUY ĐỊNH ĐỊNH DẠNG:
 DỮ LIỆU ĐẦU VÀO TỪ AGENT ĐIỀU PHỐI:
 - Ý định: {{ $json.routing_info.intent }}
 - Thực thể cần tra cứu: {{ $json.routing_info.entities }}
-- Câu hỏi gốc: {{ $('Edit Fields').first().json['nd tin nhắn'] }}
+- Câu hỏi gốc: {{ $('Edit Fields Messenger').first().json['nd tin nhắn'] }}
