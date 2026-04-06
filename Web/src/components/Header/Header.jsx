@@ -36,10 +36,12 @@ const Header = () => {
 
           {/* LOGO SCA */}
           <div className={styles["logo-sca"]}>
-            <img
-              src="https://files01.duytan.edu.vn/svruploads/sca-duytan/639059675005628021-logo-sca.svg"
-              alt="sca"
-            />
+            <a href="/">
+              <img
+                src="https://files01.duytan.edu.vn/svruploads/sca-duytan/639059675005628021-logo-sca.svg"
+                alt="sca"
+              />
+            </a>
           </div>
 
           {/* MENU */}

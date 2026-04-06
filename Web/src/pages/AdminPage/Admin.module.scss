@@ -1,0 +1,38 @@
+.container {
+  min-height: 100vh;
+}
+
+.logo {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.header {
+  background: #fff !important;
+  padding: 16px !important;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.content {
+  margin: 16px;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+
+  .card {
+    flex: 1;
+  }
+}
+
+.search {
+  margin-bottom: 20px;
+}

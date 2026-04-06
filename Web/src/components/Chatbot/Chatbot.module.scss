@@ -7,11 +7,13 @@
   flex-direction: column;
   align-items: flex-end;
   font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+  pointer-events: none;
 }
 
 .floatingBtn {
   width: 65px;
   height: 65px;
+  pointer-events: auto;
   border-radius: 50%;
   background: linear-gradient(135deg, #0052cc, #00aaff);
   color: white;

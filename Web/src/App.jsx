@@ -4,6 +4,7 @@ import './App.css';
 import DashboardPage from './pages/DashboardPage/DashboardPage';
 import ChuongtrinhPage from './pages/ChuongtrinhPage/Chuongtrinh';
 import Chatbot from './components/Chatbot/Chatbot';
+import Admin from './pages/AdminPage/Admin';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/programs" element={<ChuongtrinhPage />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
       <Chatbot />
     </Router>

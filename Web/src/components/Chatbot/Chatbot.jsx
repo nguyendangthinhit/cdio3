@@ -24,17 +24,18 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:5678/webhook/chatbot', { // link n8n
+      const res = await fetch('https://cdio3.app.n8n.cloud/webhook-test/cdio3', { // link n8n
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input })
       });
 
       const data = await res.json();
+      const result = Array.isArray(data) ? data[0] : data;
 
       const botMessage = {
         type: 'bot',
-        text: data.reply || 'Không có phản hồi'
+        text: result.reply || 'Không có phản hồi'
       };
 
       setMessages(prev => [...prev, botMessage]);
