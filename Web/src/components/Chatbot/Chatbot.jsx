@@ -2,6 +2,22 @@ import React, { useState } from 'react';
 import styles from './Chatbot.module.scss';
 import ReactMarkdown from 'react-markdown';
 
+function getOrCreateUserId() {
+  const name = "userId=";
+  const decodedCookie = decodeURIComponent(document.cookie);
+  const ca = decodedCookie.split(";");
+
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i].trim();
+    if (c.indexOf(name) === 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+
+  const newId = crypto.randomUUID();
+  document.cookie = `userId=${newId}; path=/; max-age=31536000`;
+  return newId;
+}
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
@@ -18,6 +34,7 @@ const Chatbot = () => {
     if (!input.trim()) return;
 
     const userMessage = { type: 'user', text: input };
+    const userId = getOrCreateUserId();
 
     // hiển thị message user ngay
     setMessages(prev => [...prev, userMessage]);
@@ -28,7 +45,9 @@ const Chatbot = () => {
       const res = await fetch('https://cdio3.app.n8n.cloud/webhook-test/cdio3', { // link n8n
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: input })
+        body: JSON.stringify({ 
+          message: input,
+          userId: userId})
       });
 
       const data = await res.json();
