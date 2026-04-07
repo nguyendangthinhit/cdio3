@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Chatbot.module.scss';
+import ReactMarkdown from 'react-markdown';
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -86,7 +87,11 @@ const Chatbot = () => {
                     : styles.bubbleUser
                 }
               >
-                {msg.text}
+                {msg.type === 'bot' ? (
+                  <ReactMarkdown>{msg.text}</ReactMarkdown>
+                ) : (
+                  msg.text
+                )}
               </div>
             </div>
           ))}
