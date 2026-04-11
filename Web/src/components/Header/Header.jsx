@@ -52,8 +52,6 @@ const Header = () => {
                 <div className={styles["dropdown-menu-container"]}>
                   <ul className={styles["dropdown-menu"]}>
                     <li><a href="/dai-hoc-5lz">Chương trình Đại học</a></li>
-                    <li><a href="/chuong-trinh-thac-si-8l0">Chương trình Thạc Sĩ</a></li>
-                    <li><a href="/sau-dai-hoc-9mi">Chương trình Tiến Sĩ</a></li>
                   </ul>
                 </div>
               </li>
@@ -70,14 +68,7 @@ const Header = () => {
                 <a href="/ban-giam-hieu">HỌC BỔNG</a>
                 <div className={styles["dropdown-menu-container"]}>
                   <ul className={styles["dropdown-menu"]}>
-                    <li><a href="/ban-giam-hieu">Ban Giám Hiệu</a></li>
-                    <li><a href="/-khoa-khoa-hoc-may-tinh-tpb">-- Khoa Khoa học Máy tính</a></li>
-                    <li><a href="/khoa-cong-nghe-thong-tin-zw1">-- Khoa Công nghệ Thông tin</a></li>
-                    <li><a href="/khoa-ky-thuat-mang-may-tinh-va-truyen-thong-b2t">-- Khoa Kỹ thuật Mạng máy tính &amp; Truyền thông</a></li>
-                    <li><a href="/trung-tam-mo-phong-va-mo-hinh-hoa-cvs-nd9">-- Trung tâm Mô phỏng &amp; Mô hình hóa CVS</a></li>
-                    <li><a href="/trung-tam-nghien-cuu-va-chuyen-giao-ung-dung-cntt-ws0">-- Trung tâm Nghiên cứu &amp; Chuyển giao Ứng dụng CNTT</a></li>
-                    <li><a href="/phong-tong-hop-q11">-- Phòng Tổng hợp</a></li>
-                    <li><a href="/iot-lab-h1e">-- IOT LAB</a></li>
+                    <li><a href="/ban-giam-hieu">Học bổng</a></li>
                   </ul>
                 </div>
               </li>  

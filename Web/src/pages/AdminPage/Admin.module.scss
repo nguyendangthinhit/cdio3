@@ -1,38 +1,449 @@
-.container {
-  min-height: 100vh;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
-.logo {
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-}
+// ── Variables (Light Theme) ───────────────────────────────────────────────────
+$bg-page:      #f0f2f5;
+$bg-sidebar:   #ffffff;
+$bg-card:      #ffffff;
+$bg-row-hover: #f5f7fa;
+$border:       #e8eaed;
+$text-primary: #1a202c;
+$text-muted:   #718096;
+$accent:       #6366f1;
 
-.header {
-  background: #fff !important;
-  padding: 16px !important;
-
-  h2 {
-    margin: 0;
-  }
-}
-
-.content {
-  margin: 16px;
-}
-
-.cards {
+// ── Page layout ───────────────────────────────────────────────────────────────
+.page {
+  font-family: "Inter", sans-serif;
   display: flex;
-  gap: 16px;
-  margin-bottom: 20px;
+  min-height: 100vh;
+  background: $bg-page;
+  color: $text-primary;
+}
 
-  .card {
-    flex: 1;
+// ── Sidebar ───────────────────────────────────────────────────────────────────
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: $bg-sidebar;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid $border;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.06);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 20px 20px;
+  border-bottom: 1px solid $border;
+}
+
+.brandIcon {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  color: $accent;
+}
+
+.brandName {
+  font-size: 17px;
+  font-weight: 700;
+  color: $text-primary;
+}
+
+.nav {
+  flex: 1;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: $text-muted;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #f0f0ff;
+    color: $accent;
   }
 }
 
-.search {
-  margin-bottom: 20px;
+.navIcon {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.navActive {
+  background: #ededff !important;
+  color: $accent !important;
+  font-weight: 600;
+}
+
+.sidebarFooter {
+  padding: 16px 20px;
+  font-size: 11px;
+  color: $text-muted;
+  border-top: 1px solid $border;
+  display: flex;
+  align-items: center;
+}
+
+// ── Main area ─────────────────────────────────────────────────────────────────
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 28px;
+  background: $bg-sidebar;
+  border-bottom: 1px solid $border;
+  gap: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.topBarRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+// ── Sync status ───────────────────────────────────────────────────────────────
+.syncStatus {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: $bg-page;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 7px 12px;
+  white-space: nowrap;
+}
+
+.syncDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+
+.syncDotActive {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f59e0b;
+  flex-shrink: 0;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+.syncText {
+  font-size: 12px;
+  color: $text-muted;
+}
+
+.syncBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: $text-muted;
+  padding: 0 2px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s, color 0.2s;
+
+  &:hover:not(:disabled) {
+    transform: rotate(180deg);
+    color: $accent;
+  }
+  &:disabled { opacity: 0.4; cursor: not-allowed; }
+}
+
+.pageTitle {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: $text-primary;
+}
+
+.searchWrap {
+  display: flex;
+  align-items: center;
+  background: $bg-page;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 8px 14px;
+  gap: 8px;
+  width: 280px;
+  transition: border-color 0.2s;
+
+  &:focus-within {
+    border-color: $accent;
+  }
+}
+
+.searchIcon {
+  font-size: 14px;
+  color: $text-muted;
+}
+
+.searchInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: $text-primary;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+
+  &::placeholder { color: $text-muted; }
+}
+
+// ── Body ──────────────────────────────────────────────────────────────────────
+.body {
+  flex: 1;
+  padding: 24px 28px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+// ── Stat cards ────────────────────────────────────────────────────────────────
+.statRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.statCard {
+  background: $bg-card;
+  border-radius: 14px;
+  padding: 20px;
+  border-top: 3px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+}
+
+.statIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.statValue {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  color: $text-primary;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: $text-muted;
+  margin-top: 4px;
+}
+
+// ── Chart cards ───────────────────────────────────────────────────────────────
+.chartGrid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.chartCard {
+  background: $bg-card;
+  border-radius: 14px;
+  padding: 20px 20px 16px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.07);
+}
+
+.chartTitle {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  color: $text-primary;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+// Pie legend
+.pieLegend {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: $text-muted;
+}
+
+.legendDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legendCount {
+  margin-left: auto;
+  font-weight: 600;
+  color: $text-primary;
+}
+
+// ── Tables ────────────────────────────────────────────────────────────────────
+.tableWrap {
+  background: $bg-card;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.07);
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+
+  thead tr {
+    border-bottom: 2px solid $border;
+  }
+
+  th {
+    text-align: left;
+    padding: 10px 14px;
+    color: $text-muted;
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  td {
+    padding: 12px 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid $border;
+    color: $text-primary;
+  }
+
+  tbody tr {
+    transition: background 0.15s;
+
+    &:hover { background: $bg-row-hover; }
+    &:last-child td { border-bottom: none; }
+  }
+}
+
+.userId {
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  background: #f0f0ff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  color: $accent;
+}
+
+.badge {
+  background: #{$accent}18;
+  color: $accent;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.typeBadge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.dimText {
+  color: $text-muted;
+  font-size: 12px;
+}
+
+.questionCell {
+  max-width: 320px;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+// ── Loading ───────────────────────────────────────────────────────────────────
+.loadingScreen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: $bg-page;
+  color: $text-muted;
+  font-size: 15px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid $border;
+  border-top-color: $accent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
