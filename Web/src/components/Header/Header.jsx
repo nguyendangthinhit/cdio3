@@ -4,43 +4,18 @@ import styles from "./Header.module.scss";
 const Header = () => {
   return (
     <header className={styles["header-dtu"]}>
-
-      {/* TOP BAR */}
-      <div className={styles["header-top"]}>
-        <div className="container d-flex justify-content-between align-items-center">
-
-          <div className={styles["top-left"]}>
-            <img
-              src="https://files01.duytan.edu.vn/svruploads/sca-duytan/639059675021838960-logo-dtu-top.svg"
-              alt="dtu"
-            />
-            <span>TOP 201-250 THẾ GIỚI (THEO QS RANKING)</span>
-          </div>
-
-          <div className={styles["top-right"]}>
-            <a href="#">Đối tác</a>
-            <a href="#">MyDTU</a>
-
-            <div className={styles["search-box"]}>
-              <input type="text" placeholder="Nhập từ khóa" />
-              <i className="fa fa-search"></i>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
       {/* MAIN HEADER */}
       <div className={styles["header-main"]}>
         <div className="container d-flex justify-content-between align-items-center">
 
           {/* LOGO SCA */}
-          <div className={styles["logo-sca"]}>
+          <div className={styles["logo-dtu"]}>
             <a href="/">
               <img
-                src="https://files01.duytan.edu.vn/svruploads/sca-duytan/639059675005628021-logo-sca.svg"
+                src="https://files01.duytan.edu.vn/svruploads/sca-duytan/639059675021838960-logo-dtu-top.svg"
                 alt="sca"
               />
+              <span>TOP 201-250 THẾ GIỚI (THEO QS RANKING)</span>
             </a>
           </div>
 

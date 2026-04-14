@@ -1,62 +1,5 @@
 .header-dtu {
 
-  /* ===== TOP BAR ===== */
-  .header-top {
-    background: #b51217;
-    color: #fff;
-    height: 50px;
-
-    .container {
-      height: 100%;
-    }
-
-    .top-left {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-
-      img {
-        height: 35px;
-      }
-
-      span {
-        font-size: 14px;
-        font-weight: 600;
-      }
-    }
-
-    .top-right {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-
-      a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 14px;
-      }
-
-      .search-box {
-        position: relative;
-
-        input {
-          background: #8c070c;
-          border: none;
-          padding: 8px 35px 8px 10px;
-          color: #fff;
-          width: 180px;
-        }
-
-        i {
-          position: absolute;
-          right: 10px;
-          top: 50%;
-          transform: translateY(-50%);
-        }
-      }
-    }
-  }
-
   /* ===== MAIN HEADER ===== */
   .nav-header span + span {
     margin-top: 4px;
@@ -64,9 +7,13 @@
 
   .header-main {
     padding: 15px 0;
+    background-color: #b51217;
 
-    .logo-sca img {
+    .logo-dtu img {
       height: 60px;
+    }
+    .logo-dtu span {
+      color: #fff;
     }
 
     .navigation-dtu {
@@ -160,17 +107,14 @@
           }
 
           > a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
             transition: color 0.2s;
             display: block;
             padding: 10px 0;
           }
 
-          &:hover > a {
-            color: #b51217;
-          }
-
+         
           .dropdown-menu-container {
             position: absolute;
             top: 100%;
