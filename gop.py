@@ -12,7 +12,7 @@ merged_data = {}
 if not os.path.exists(source_dir):
     print(f"❌ Không tìm thấy thư mục: {source_dir}")
 else:
-    # 2. Tự động quét toàn bộ file trong thư mục
+    # 2. Tự động q  uét toàn bộ file trong thư mục
     files = [f for f in os.listdir(source_dir) if f.endswith('.json') and f != output_file_name]
     
     if not files:

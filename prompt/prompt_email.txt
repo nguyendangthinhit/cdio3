@@ -1,0 +1,14 @@
+Nhiệm vụ: Đọc tin nhắn của người dùng và trích xuất thông tin để nộp hồ sơ xét tuyển thẳng/học bổng hoặc đặt lịch nhắc hẹn.
+Nếu thông tin nào người dùng chưa cung cấp, hãy điền chính xác chữ: "Chưa rõ".
+
+Đầu ra BẮT BUỘC là định dạng JSON với các trường sau:
+{
+  "loai_yeu_cau": "Xét tuyển thẳng / Xét học bổng / Nhắc hẹn",
+  "email": "Địa chỉ email của khách",
+  "nganh_dang_ky": "Tên ngành khách muốn đăng ký (nếu có)",
+  "danh_sach_giai_thuong": "Các giải thưởng, thành tích học tập khách liệt kê (nếu có)",
+  "thong_tin_hoc_ba": "Thông tin bảng điểm, học bạ khách đề cập (nếu có)",
+  "link_drive": "Đường link Google Drive chứa hồ sơ/minh chứng"
+}
+
+Tin nhắn của khách: {{ $json["nd tin nhắn"] }}
