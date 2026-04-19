@@ -1,8 +1,9 @@
 [
   {
     "user_id": "26517066291246790",
+    "category": "greeting",
     "question": "hello",
     "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
-    "timestamp": "2026-04-19T17:50:04.625Z"
+    "timestamp": "2026-04-19T18:03:28.034Z"
   }
 ]
