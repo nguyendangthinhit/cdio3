@@ -1,9 +1,9 @@
 [
   {
     "user_id": "26517066291246790",
-    "category": "nhac_hen",
-    "question": "tạo nhắc hẹn cho mình. nguyễn đăng thịnh, anhduongit005@gmail.com, đăng kí tuyển sinh vào 10h ngày 21/4 sắp tới",
-    "answer": "Mình đã lưu lịch nhắc hẹn cho bạn rồi nhé! Đến gần ngày, hệ thống sẽ tự động gửi Email thông báo ạ.",
-    "timestamp": "2026-04-20T18:02:19.015Z"
+    "category": "greeting",
+    "question": "hello",
+    "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
+    "timestamp": "2026-04-20T18:08:11.376Z"
   }
 ]
