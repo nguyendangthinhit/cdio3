@@ -1,9 +1,9 @@
 [
   {
     "user_id": "26517066291246790",
-    "category": "greeting",
-    "question": "hello",
-    "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
-    "timestamp": "2026-04-20T18:14:49.016Z"
+    "category": "tuyen_sinh",
+    "question": "học phí ngành big data",
+    "answer": "Học phí cho chuyên ngành liên quan đến Big Data tại Đại học Duy Tân năm 2026 được quy định như sau:\n\nChuyên ngành Big Data & Machine Learning (HP):\nMã chuyên ngành: 115(HP)\nHọc phí mỗi học kỳ: 14.000.000 VNĐ\nHọc phí mỗi năm: 28.000.000 VNĐ\nĐơn giá mỗi tín chỉ: 875.000 VNĐ\n\nBên cạnh đó, bạn có thể tham khảo thêm ngành Khoa học Dữ liệu (Data Science):\nMã chuyên ngành: 135\nHọc phí mỗi học kỳ: 14.000.000 VNĐ\nHọc phí mỗi năm: 28.000.000 VNĐ\nĐơn giá mỗi tín chỉ: 875.000 VNĐ\n\nLưu ý: Mức học phí này có thể thay đổi tùy theo lộ trình đào tạo và các chính sách hỗ trợ riêng của từng năm học.\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
+    "timestamp": "2026-04-20T18:22:56.164Z"
   }
 ]
