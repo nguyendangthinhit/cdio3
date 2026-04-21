@@ -5,5 +5,12 @@
     "question": "so sánh 2 ngành trí tuệ nhân tạo và big data",
     "answer": "Dưới đây là một số thông tin chính về hai ngành học:\n\n**Ngành 1: Trí tuệ Nhân tạo (AI)**\n\n* Giới thiệu: Nghiên cứu và phát triển hệ thống thông minh mô phỏng trí tuệ con người\n* Mục tiêu đào tạo: Trang bị kỹ năng thiết kế thuật toán Machine Learning, tối ưu hóa mô hình AI\n* Điểm nổi bật: Học sâu về Advance AI, Robotics, Machine Learning\n* Cơ hội việc làm: Kỹ sư phát triển AI, kỹ sư Robot, chuyên viên phân tích hệ thống thông minh\n* Mức lương khởi điểm: 12-18 triệu đồng/tháng\n\n**Ngành 2: Big Data & Machine Learning**\n\n* Giới thiệu: Thu thập, xử lý và khai thác giá trị từ các kho dữ liệu khổng lồ\n* Mục tiêu đào tạo: Đào tạo chuyên sâu về kiến trúc dữ liệu lớn, quản trị kho dữ liệu và trực quan hóa dữ liệu\n* Điểm nổi bật: Chú trọng kỹ năng lập trình Python, Scala và sử dụng các công cụ xử lý dữ liệu lớn\n* Cơ hội việc làm: Kỹ sư dữ liệu, chuyên viên phân tích dữ liệu lớn, chuyên gia giải pháp doanh nghiệp\n* Mức lương khởi điểm: 12-18 triệu đồng/tháng\n\nTổng kết, nếu bạn muốn trở thành kỹ sư tạo ra hệ thống tự hành hay chatbot thông minh, hãy chọn Trí tuệ Nhân tạo. Nếu bạn muốn trở thành chuyên gia phân tích dữ liệu, hãy chọn Big Data. Cả hai ngành đều yêu cầu kỹ năng lập trình và tư duy logic, nhưng Trí tuệ Nhân tạo đòi hỏi kiến thức về thuật toán và logic máy móc, trong khi Big Data đòi hỏi kiến thức về xác suất thống kê và tư duy dữ liệu.",
     "timestamp": "2026-04-21T11:20:12.784Z"
+  },
+  {
+    "user_id": "26517066291246790",
+    "category": "greeting",
+    "question": "hello",
+    "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
+    "timestamp": "2026-04-21T11:25:24.122Z"
   }
 ]
