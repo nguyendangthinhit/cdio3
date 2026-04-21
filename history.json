@@ -1,9 +1,9 @@
 [
   {
     "user_id": "ec614f91-2170-436d-82c6-b3262cb7f215",
-    "category": "greeting",
-    "question": "hi",
-    "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
-    "timestamp": "2026-04-21T11:43:38.950Z"
+    "category": "dang_ky",
+    "question": "tôi muốn tìm hiểu học bổng",
+    "answer": "Dạ để hoàn tất hồ sơ đăng ký, bạn vui lòng cung cấp đầy đủ các thông tin bao gồm: Họ và tên,  Email, nội dung muốn đăng ký, ngành học,  điểm học bạ , thành tích và  đính kèm Link Google Drive (chứa ảnh bảng điểm, giấy khen...) nhé ạ!",
+    "timestamp": "2026-04-21T11:44:20.644Z"
   }
 ]
