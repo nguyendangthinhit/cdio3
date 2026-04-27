@@ -40,5 +40,12 @@
     "question": "hello",
     "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
     "timestamp": "2026-04-27T09:11:46.483Z"
+  },
+  {
+    "user_id": "26517066291246790",
+    "category": "qa_match",
+    "question": "so sánh 2 ngành học big data và khoa học dữ liệu",
+    "answer": "Sau đây là thông tin về hai ngành học tại Đại học Duy Tân (DTU):\n\n**Ngành 1: Khoa học Dữ liệu**\n\n* Giới thiệu chung: Tập trung nghiên cứu và ứng dụng dữ liệu để giải quyết các bài toán thực tế.\n* Mục tiêu đào tạo: Đào tạo kỹ năng thu thập, làm sạch dữ liệu và triển khai thuật toán Học máy, Học sâu.\n* Điểm nổi bật chương trình: Học chuyên sâu về xử lý ngôn ngữ tự nhiên (NLP), thị giác máy tính và thực hành trực quan hóa dữ liệu.\n* Cơ hội việc làm: Chuyên gia khoa học dữ liệu, chuyên viên phân tích thông tin, quản trị cơ sở dữ liệu với mức lương 12-18 triệu đồng/tháng.\n\n**Ngành 2: Big Data & Machine Learning**\n\n* Giới thiệu chung: Nhấn mạnh vào việc xây dựng kiến trúc và xử lý các tập dữ liệu cực lớn (Big Data) phục vụ quản trị và sản xuất kinh doanh.\n* Mục tiêu đào tạo: Tập trung vào công nghệ dữ liệu lớn như Hadoop, Spark và kiến trúc Data Warehouse/Data Lake.\n* Điểm nổi bật chương trình: Chú trọng lập trình Python, Scala và sử dụng các công cụ hạ tầng hiện đại như Kafka, Airflow trên nền tảng điện toán đám mây.\n* Cơ hội việc làm: Kỹ sư dữ liệu (Data Engineer), chuyên viên phân tích dữ liệu lớn, lập trình viên AI với thu nhập khởi điểm từ 12-18 triệu đồng/tháng.\n\n**Tổng kết và định hướng chuyên sâu**\n\n* Nếu bạn muốn trở thành một Chuyên gia Khoa học Dữ liệu chuyên sâu về phân tích mô hình dự báo, hãy chọn Khoa học Dữ liệu.\n* Nếu bạn muốn trở thành một Kỹ sư Dữ liệu xây dựng hệ thống hạ tầng \"khủng\", hãy chọn Big Data & Machine Learning.\n* Nếu bạn đam mê tìm kiếm ý nghĩa ẩn sau những con số, hãy chọn Khoa học Dữ liệu.\n* Nếu bạn thích mày mò thiết kế các hệ thống lưu trữ quy mô lớn, hãy chọn Big Data.\n* Nếu bạn giỏi về Toán thống kê, hãy chọn Khoa học Dữ liệu.\n* Nếu bạn giỏi về lập trình hệ thống và tối ưu hạ tầng, hãy chọn Big Data. | 2026-04-21T11:30:40.418Z",
+    "timestamp": "2026-04-27T09:14:28.525Z"
   }
 ]
