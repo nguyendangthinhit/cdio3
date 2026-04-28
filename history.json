@@ -63,5 +63,12 @@
     "question": "Xin chào",
     "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
     "timestamp": "2026-04-28T11:38:44.385Z"
+  },
+  {
+    "user_id": "27223025277303185",
+    "category": "qa_match",
+    "question": "cho tôi biết học phí ngành Marketing",
+    "answer": "Thông tin học phí các chuyên ngành thuộc lĩnh vực Marketing tại Đại học Duy Tân năm 2026 như sau:\n\nChuyên ngành Digital Marketing\nHọc phí: 18.480.000 VNĐ/học kỳ (tương đương 36.960.000 VNĐ/năm)\n\nChuyên ngành Quản trị Marketing và Chiến lược (Chương trình Tài năng - HP)\nHọc phí: 17.600.000 VNĐ/học kỳ (tương đương 35.200.000 VNĐ/năm)\n\nChuyên ngành Quản trị Kinh doanh Marketing\nHọc phí: 16.560.000 VNĐ/học kỳ (tương đương 33.120.000 VNĐ/năm)\n\nLưu ý: Mức học phí trên có thể thay đổi dựa trên số lượng tín chỉ thực tế mà sinh viên đăng ký trong mỗi học kỳ và lộ trình tăng học phí hàng năm của nhà trường.\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè? | timestamp: 2026-04-22T17:28:19.069Z",
+    "timestamp": "2026-04-28T11:41:19.833Z"
   }
 ]
