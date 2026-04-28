@@ -23,7 +23,7 @@ const Chatbot = () => {
   const [messages, setMessages] = useState([
     {
       type: 'bot',
-      text: 'Xin chào! 👋 Tôi có thể giúp gì cho bạn?'
+      text: 'Chào bạn, đây là hệ thống chatbot. Tôi có thể giúp gì cho bạn?'
     }
   ]);
   const [input, setInput] = useState('');
