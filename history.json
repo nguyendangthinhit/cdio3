@@ -49,15 +49,6 @@
     "timestamp": "2026-04-27T09:14:28.525Z"
   },
   {
-    "user_id": "25195266413472651",
-    "question": "hello",
-    "answer": "Chào bạn! Mình là Drama Bot — trợ lý thông minh về drama showbiz & giáo dục. Bạn muốn tìm drama nào?",
-    "source_type": "database",
-    "the_loai": "",
-    "su_kien": "",
-    "timestamp": "2026-04-28T05:22:07.477Z"
-  },
-  {
     "user_id": "27223025277303185",
     "category": "greeting",
     "question": "Xin chào",
