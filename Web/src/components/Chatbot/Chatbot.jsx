@@ -29,7 +29,7 @@ const Chatbot = () => {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // 👉 gửi message lên n8n
+  // gửi message lên n8n
   const sendMessage = async () => {
     if (!input.trim()) return;
 
@@ -42,7 +42,7 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('https://cdio03.app.n8n.cloud/webhook/cdio3', { // link n8n
+      const res = await fetch('https://cdio3new.app.n8n.cloud/webhook/cdio3', { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
@@ -60,12 +60,11 @@ const Chatbot = () => {
 
       setMessages(prev => [...prev, botMessage]);
     } catch (err) {
-      setMessages(prev => [
+     setMessages(prev => [
         ...prev,
         { type: 'bot', text: 'Lỗi kết nối server 😢' }
       ]);
     }
-
     setLoading(false);
   };
 
@@ -131,9 +130,10 @@ const Chatbot = () => {
             className={styles.chatInput}
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
+            onKeyDown={(e) => e.key === 'Enter' && !loading && sendMessage()}
+            disabled={loading}
           />
-          <button className={styles.sendBtn} onClick={sendMessage}>
+          <button className={styles.sendBtn} onClick={sendMessage} disabled={loading}>
             Gửi
           </button>
         </div>
