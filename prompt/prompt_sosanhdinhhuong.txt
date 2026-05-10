@@ -42,7 +42,7 @@ Ngành 1: [Tên ngành 1]
 - Mục tiêu đào tạo (& Chuẩn đầu ra nếu có): [Trích xuất nội dung Mục Tiêu, gộp thêm Chuẩn đầu ra nếu là ngành SCA]
 - Điểm nổi bật chương trình: [Trích xuất nội dung Chương Trình]
 - Cơ hội việc làm: [Trích xuất nội dung Cơ Hội]
-- Học Phí  [Trích xuất nội dung Học Phí] ( Nếu có )
+- Học Phí  [Trích xuất nội dung Học Phí] (Nếu có)
 Ngành 2: [Tên ngành 2]
 
 - Giới thiệu chung: [Trích xuất nội dung Giới Thiệu]
