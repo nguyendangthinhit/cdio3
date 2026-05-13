@@ -89,5 +89,12 @@
     "question": "học phí ngành Quản trị Du lịch và Lữ hành",
     "answer": "Học phí ngành Quản trị Du lịch và Lữ hành (hệ Đại học chính quy) theo bảng học phí hiện hành:\n\n- Học phí chuẩn: 40.000.000 đồng/năm\n- Thời gian đào tạo dự kiến: 4 năm\n- Tổng học phí toàn khóa ước tính: khoảng 160.000.000 đồng\n(Lệch thực tế chủ yếu do số tín chỉ đăng ký mỗi học kỳ, học lại/học vượt.)\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
     "timestamp": "2026-05-13T17:26:07.779Z"
+  },
+  {
+    "user_id": "26517066291246790",
+    "category": "unknown",
+    "question": "học phí ngành Quản trị Du lịch & Dịch vụ Hàng không",
+    "answer": "Học phí ngành Quản trị Du lịch & Dịch vụ Hàng không (tên trong bảng: “Quản trị Du lịch và Lữ hành” không trùng, nên mình tra theo đúng tên hiện có trong dữ liệu là “Quản trị Du lịch và Lữ hành”. Riêng “Du lịch & Dịch vụ Hàng không” hiện không có mục riêng trong bảng học phí.)\n\nTrong dữ liệu học phí 2026 hiện chỉ có ngành:\n- “Quản trị Du lịch và Lữ hành”\nvới mức:\n- Học phí chuẩn: 40.000.000 đồng/năm\n- Thời gian đào tạo dự kiến: 4 năm\n- Tổng học phí ước tính toàn khóa: khoảng 160.000.000 đồng\n\nNgành “Quản trị Du lịch & Dịch vụ Hàng không” không xuất hiện thành một dòng học phí tách biệt trong file, nên không có số liệu chính thức riêng cho tổ hợp “Du lịch & Dịch vụ Hàng không” để mình báo chính xác hơn.\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
+    "timestamp": "2026-05-13T17:29:40.782Z"
   }
 ]
