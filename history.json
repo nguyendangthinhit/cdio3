@@ -82,5 +82,12 @@
     "question": "học phí ngành Quản trị Du lịch và Lữ hành",
     "answer": "Hiện trong file QA.json không có một bản ghi ghi rõ nguyên văn cụm \"Quản trị Du lịch và Lữ hành\" nhưng có các bản ghi học phí chi tiết theo ngành/chương trình (ví dụ: Công nghệ thông tin, Big Data, Marketing, An ninh mạng, An ninh mạng CMU, Big Data & Machine Learning v.v.) với cấu trúc chung: học phí được tính theo **số tín chỉ x đơn giá mỗi tín chỉ** và có liệt kê rõ **học phí 1 tín chỉ, số tín chỉ toàn khóa, tổng học phí dự kiến** cho từng chương trình.\n\nVới ngành Quản trị Du lịch và Lữ hành, để có con số chính xác (vì mỗi ngành/mỗi chương trình chuẩn, chất lượng cao, liên kết quốc tế… có mức học phí khác nhau), em cần liên hệ trực tiếp bộ phận tư vấn tuyển sinh Đại học Duy Tân hoặc tra cứu trên trang tuyển sinh/học phí chính thức của trường trong năm 2026. Thông tin chi tiết về học phí ngành này **chưa được lưu cụ thể trong QA.json** hiện tại.\n\n(Timestamp dữ liệu QA: từ 2026-04-16 đến 2026-05-10, không có bản ghi riêng cho \"Quản trị Du lịch và Lữ hành\")",
     "timestamp": "2026-05-13T17:08:57.756Z"
+  },
+  {
+    "user_id": "26517066291246790",
+    "category": "unknown",
+    "question": "học phí ngành Quản trị Du lịch và Lữ hành",
+    "answer": "Học phí ngành Quản trị Du lịch và Lữ hành (hệ Đại học chính quy) theo bảng học phí hiện hành:\n\n- Học phí chuẩn: 40.000.000 đồng/năm\n- Thời gian đào tạo dự kiến: 4 năm\n- Tổng học phí toàn khóa ước tính: khoảng 160.000.000 đồng\n(Lệch thực tế chủ yếu do số tín chỉ đăng ký mỗi học kỳ, học lại/học vượt.)\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè?",
+    "timestamp": "2026-05-13T17:26:07.779Z"
   }
 ]
