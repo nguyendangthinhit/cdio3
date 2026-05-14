@@ -7,9 +7,10 @@ CHATBOT TUYỂN SINH ĐẠI HỌC DUY TÂN
 │ ├── chi_tiet_nganh_dtu_2026.json
 │ ├── de_xuat_nganh_hoc_theo_nang_luc_ca_nhan_y_chang.json
 │ ├── de_xuat_viec_lam_theo_nang_luc_va_so_thich.json
-│ ├── map_xu_huong_theo_CN_conf40.json
-│ ├── mo_ta_nganh.json
-│ └── mo_ta_nganh_sca.json
+│ └──map_xu_huong_theo_CN_conf40.json
+│
+├──mo_ta_nganh.json
+├── mo_ta_nganh_sca.json
 │
 ├── Thông tin về trường (data_Thong_tin_ve_truong.json)
 │ ├── Cac_chuong_trinh_trao_doi_sinh_vien_tieu_bieu.json
