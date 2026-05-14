@@ -1,0 +1,354 @@
+{
+    "CachTinhDiemXetTuyen_2026": {
+        "cach_tinh_diem_xet_tuyen_DTU_2026": {
+            "phuong_thuc_tuyen_sinh_va_nguon_tuyen": {
+                "tieu_de": "PHƯƠNG THỨC TUYỂN SINH VÀ NGUỒN TUYỂN",
+                "mo_ta": "Đại học Duy Tân tổ chức xét tuyển theo các phương thức sau:",
+                "cac_phuong_thuc": [
+                    {
+                        "so_thu_tu": 1,
+                        "ten": "Xét tuyển thẳng thí sinh theo quy chế của Bộ GDĐT."
+                    },
+                    {
+                        "so_thu_tu": 2,
+                        "ten": "Xét kết quả thi tốt nghiệp THPT 2026."
+                    },
+                    {
+                        "so_thu_tu": 3,
+                        "ten": "Xét kết quả học tập THPT (xét học bạ) năm lớp 10, 11, 12."
+                    },
+                    {
+                        "so_thu_tu": 4,
+                        "ten": "Xét kết quả kỳ thi Đánh giá năng lực do Đại học Quốc gia TP.HCM và kỳ thi V-SAT năm 2026, ngoại trừ ngành Kiến trúc, Thanh nhạc."
+                    },
+                    {
+                        "so_thu_tu": 5,
+                        "ten": "Xét tuyển kết hợp điểm thi THPT với điểm thi năng khiếu."
+                    },
+                    {
+                        "so_thu_tu": 6,
+                        "ten": "Xét tuyển kết hợp kết quả học tập cấp THPT với điểm thi năng khiếu."
+                    }
+                ],
+                "luu_y_mon_nang_khieu": "Thí sinh tham gia xét tuyển ngành Kiến trúc (Khối V), Thanh nhạc (Khối N00) có thể dùng kết quả thi môn Năng khiếu tại các cơ sở giáo dục đại học khác trong cả nước hoặc tham gia dự thi các môn Năng khiếu tại Đại học Duy Tân."
+            },
+            "phuong_thuc_2": {
+                "ten": "Xét kết quả thi tốt nghiệp THPT 2026 & kỳ thi V-SAT",
+                "cong_thuc": {
+                    "nganh_chung": "Điểm môn 1 + Điểm môn 2 + Điểm môn 3 + Điểm cộng + Điểm ưu tiên",
+                    "kien_truc": "Điểm môn 1 + Điểm môn 2 + Điểm thi Vẽ Mỹ thuật + Điểm cộng + Điểm ưu tiên",
+                    "thanh_nhac": "Điểm môn Văn + Điểm thi Năng khiếu 1 + Điểm thi Năng khiếu 2 + Điểm cộng + Điểm ưu tiên"
+                },
+                "dieu_kien": {
+                    "chung": "Tổng điểm 3 môn theo tổ hợp xét tuyển đạt tối thiểu 15,00/30 điểm",
+                    "linh_vuc_suc_khoe_phap_luat": "Theo ngưỡng đầu vào riêng do Bộ GDĐT quy định"
+                }
+            },
+            "phuong_thuc_3": {
+                "ten": "Xét kết quả học tập THPT (Học bạ)",
+                "ghi_chu": "Xét theo tổng điểm trung bình 3 môn của năm lớp 10, lớp 11 và lớp 12",
+                "cong_thuc": {
+                    "nganh_chung": "Điểm môn 1 + Điểm môn 2 + Điểm môn 3 + Điểm cộng + Điểm ưu tiên",
+                    "ghi_chu_diem_mon": "Điểm môn = Trung bình cộng điểm môn đó qua 3 năm lớp 10, 11, 12",
+                    "kien_truc": "Điểm môn 1 + Điểm môn 2 + Điểm thi Vẽ Mỹ thuật + Điểm cộng + Điểm ưu tiên",
+                    "thanh_nhac": "Điểm môn Văn + Điểm thi Năng khiếu 1 + Điểm thi Năng khiếu 2 + Điểm cộng + Điểm ưu tiên"
+                },
+                "dieu_kien_theo_nhom_nganh": {
+                    "nganh_chung": {
+                        "diem_thi_tot_nghiep_toi_thieu": 15.0,
+                        "thang_diem": 30,
+                        "hoc_luc_lop12": null
+                    },
+                    "luat_luat_kinh_te": {
+                        "hoc_luc_lop12": "Giỏi trở lên",
+                        "diem_thi_tot_nghiep_toi_thieu": 18.0,
+                        "hoac_diem_xet_tot_nghiep_toi_thieu": 8.5
+                    },
+                    "y_khoa_rang_ham_mat_duoc": {
+                        "hoc_luc_lop12": "Giỏi trở lên",
+                        "diem_thi_tot_nghiep_toi_thieu": 20.0,
+                        "hoac_diem_xet_tot_nghiep_toi_thieu": 8.5
+                    },
+                    "dieu_duong_ky_thuat_xet_nghiem": {
+                        "hoc_luc_lop12": "Khá trở lên",
+                        "diem_thi_tot_nghiep_toi_thieu": 16.5,
+                        "hoac_diem_xet_tot_nghiep_toi_thieu": 6.5
+                    }
+                },
+                "nguyen_tac": [
+                    "Lấy từ điểm cao xuống thấp cho đủ chỉ tiêu theo ngành",
+                    "Không nhân hệ số điểm môn xét tuyển khi xây dựng biên bản điểm trúng tuyển",
+                    "Trường hợp bằng điểm: dựa vào môn thi chính làm điều kiện xét chọn"
+                ]
+            },
+            "phuong_thuc_4": {
+                "ten": "Xét kết quả kỳ thi Đánh giá năng lực (ĐHQG TP.HCM) & V-SAT",
+                "ap_dung": "Tất cả các ngành, ngoại trừ ngành Kiến trúc và Thanh nhạc",
+                "dieu_kien_va_nguyen_tac": "Áp dụng tương tự Phương thức 3"
+            },
+            "phuong_thuc_5_va_6": {
+                "phuong_thuc_5": {
+                    "ten": "Kết hợp điểm thi THPT + Điểm thi Năng khiếu",
+                    "cong_thuc": "Điểm môn 1 + Điểm môn 2 + Điểm thi Năng khiếu + Điểm cộng + Điểm ưu tiên"
+                },
+                "phuong_thuc_6": {
+                    "ten": "Kết hợp kết quả học tập THPT + Điểm thi Năng khiếu",
+                    "cong_thuc": "Điểm TB môn 1 (lớp 10+11+12) + Điểm TB môn 2 + Điểm thi Năng khiếu + Điểm cộng + Điểm ưu tiên"
+                },
+                "ap_dung": [
+                    "Ngành Kiến trúc (Khối V – Vẽ Mỹ thuật)",
+                    "Ngành Thanh nhạc (Khối N00 – Kiến thức âm nhạc + Chuyên ngành)"
+                ]
+            },
+            "nguong_diem_xet_tuyen_toi_thieu": [
+                {
+                    "nganh": "Các ngành chung",
+                    "phuong_thuc": "Thi THPT / Học bạ",
+                    "diem_toi_thieu": 15.0,
+                    "thang_diem": 30,
+                    "dieu_kien_bo_sung": null
+                },
+                {
+                    "nganh": "Luật, Luật Kinh tế",
+                    "phuong_thuc": "Học bạ",
+                    "diem_toi_thieu": 18.0,
+                    "thang_diem": 30,
+                    "dieu_kien_bo_sung": "Học lực Giỏi lớp 12"
+                },
+                {
+                    "nganh": "Y khoa, Răng-Hàm-Mặt, Dược",
+                    "phuong_thuc": "Học bạ",
+                    "diem_toi_thieu": 20.0,
+                    "thang_diem": 30,
+                    "dieu_kien_bo_sung": "Học lực Giỏi lớp 12"
+                },
+                {
+                    "nganh": "Điều Dưỡng, Kỹ thuật Xét nghiệm y học",
+                    "phuong_thuc": "Học bạ",
+                    "diem_toi_thieu": 16.5,
+                    "thang_diem": 30,
+                    "dieu_kien_bo_sung": "Học lực Khá lớp 12"
+                }
+            ],
+            "quy_doi_chung_chi_tieng_anh": {
+                "ghi_chu": "Dùng thay môn Ngoại ngữ. Các chứng chỉ TOEIC, TOEFL, VSTEP theo Thông tư 24/2024/TT-BGDĐT được quy đổi về thang IELTS trước.",
+                "bang_quy_doi_ielts": [
+                    {
+                        "ielts": 5.5,
+                        "diem_quy_doi": 8.0
+                    },
+                    {
+                        "ielts": 6.0,
+                        "diem_quy_doi": 8.5
+                    },
+                    {
+                        "ielts": 6.5,
+                        "diem_quy_doi": 9.0
+                    },
+                    {
+                        "ielts": 7.0,
+                        "diem_quy_doi": 9.5
+                    },
+                    {
+                        "ielts": "7.5+",
+                        "diem_quy_doi": 10.0
+                    }
+                ]
+            },
+            "diem_cong_va_uu_tien": {
+                "diem_uu_tien": "Theo khu vực và đối tượng, áp dụng theo Quy chế tuyển sinh đại học hệ chính quy hiện hành của Bộ GDĐT",
+                "diem_cong": "Áp dụng cho các đối tượng đặc biệt (học sinh giỏi quốc gia, quốc tế, chứng chỉ ngoại ngữ quốc tế,...) theo thông báo chi tiết của Đại học Duy Tân"
+            }
+        }
+    },
+    "ThongTinTuyenSinh_DuyTan_2026": {
+        "thong_tin_tuyen_sinh_DTU_2026": {
+            "ma_truong": "DDT",
+            "vung_tuyen_sinh": "Tuyển sinh trong nước và nước ngoài",
+            "doi_tuong_tuyen_sinh": [
+                "Người đã được công nhận tốt nghiệp THPT, trung học nghề của Việt Nam hoặc của nước ngoài được công nhận trình độ tương đương",
+                "Người đã có bằng tốt nghiệp trung cấp ngành nghề thuộc cùng nhóm ngành dự tuyển và đã hoàn thành đủ yêu cầu khối lượng kiến thức văn hóa cấp THPT"
+            ],
+            "thoi_gian_nhan_ho_so": {
+                "xet_tuyen_thang": "Từ ngày ra thông báo đến 30/06/2026",
+                "cac_phuong_thuc_con_lai": "Theo quy chế tuyển sinh của Bộ GDĐT",
+                "thi_mon_nang_khieu": {
+                    "ve_my_thuat": {
+                        "hinh_thuc": "Thi tập trung, trên giấy",
+                        "dot_1": {
+                            "han_nop_ho_so": "17h00 ngày 10/04/2026",
+                            "ngay_thi": "19/04/2026 (Chủ Nhật)"
+                        },
+                        "dot_2": {
+                            "han_nop_ho_so": "17h00 ngày 12/06/2026",
+                            "ngay_thi": "21/06/2026 (Chủ Nhật)"
+                        }
+                    },
+                    "thanh_nhac": {
+                        "hinh_thuc": "Kiến thức âm nhạc tổng hợp & Chuyên ngành, Vấn đáp",
+                        "dot_1": {
+                            "han_nop_ho_so": "17h00 ngày 12/06/2026",
+                            "ngay_thi": "21/06/2026 (Chủ Nhật)"
+                        },
+                        "dot_2": "Xét tuyển bổ sung (nếu có) theo Thông báo tuyển sinh năm 2026"
+                    },
+                    "le_phi": "300.000 đồng/môn thi"
+                }
+            },
+            "thoi_gian_nhap_hoc": "Theo thời gian quy định của Bộ Giáo dục và Đào tạo",
+            "ho_so_nhap_hoc": [
+                "Bản chính Giấy báo Trúng tuyển nhập học (do ĐH Duy Tân cấp)",
+                "Bản chính Giấy chứng nhận kết quả thi Tốt nghiệp THPT năm 2026",
+                "01 bản sao công chứng Học bạ THPT",
+                "01 bản sao công chứng Bằng tốt nghiệp THPT (nếu đã tốt nghiệp trước năm 2025)",
+                "01 bản sao Giấy khai sinh",
+                "Bản sao giấy tờ xác nhận đối tượng và khu vực ưu tiên (nếu có)",
+                "Bản sao Giấy chứng nhận học sinh giỏi, đạt giải cuộc thi Khoa học Kỹ thuật (nếu có)",
+                "Bản sao chứng chỉ tiếng Anh IELTS/TOEIC/TOEFL IBT/ITP; tiếng Trung HSK; tiếng Hàn TOPIK (nếu có)",
+                "Bản sao Giấy xác nhận đăng ký nghĩa vụ quân sự (đối với Nam giới còn trong độ tuổi)"
+            ],
+            "thong_tin_lien_he": {
+                "dia_chi": "254 Nguyễn Văn Linh, Phường Thanh Khê, TP. Đà Nẵng",
+                "dien_thoai": [
+                    "(0236) 3650.403",
+                    "(0236) 3827.111",
+                    "(0236) 2243.775"
+                ],
+                "fax": "(0236) 3650.443",
+                "hotline": [
+                    "1900.2252",
+                    "0905.294.390",
+                    "0905.294.391"
+                ],
+                "facebook": "tuyensinhDTU",
+                "zalo": [
+                    "0905.294.390",
+                    "0905.294.391"
+                ],
+                "website": "https://tuyensinh.duytan.edu.vn"
+            }
+        }
+    },
+    "doi_tuong_uu_tien": [
+        {
+            "Nhóm ưu tiên": "UT1",
+            "Đối tượng": "1",
+            "Mô tả": "Công dân Việt Nam là người dân tộc thiểu số có hộ khẩu thường trú (trong thời gian học THPT hoặc trung cấp) trên 18 tháng tại Khu vực 1 (KV1) gồm: Các xã khu vực 1, 2, 3 thuộc vùng dân tộc và miền núi theo quy định được áp dụng trong thời gian thí sinh học THPT hoặc trung cấp; các xã đặc biệt khó khăn vùng bãi ngang ven biển và hải đảo; các xã đặc biệt khó khăn, xã biên giới, xã an toàn khu vào diện đầu tư của Chương trình 135 theo quy định của Thủ tướng Chính phủ.",
+            "Điểm ưu tiên": 2,
+            "Điều kiện": "Khu vực 1: Các xã đặc biệt khó khăn, xã biên giới, an toàn khu",
+            "Hồ sơ yêu cầu": "Giấy khai sinh hoặc giấy tờ hợp pháp chứng minh"
+        },
+        {
+            "Nhóm ưu tiên": "UT1",
+            "Đối tượng": "2",
+            "Mô tả": "Công nhân trực tiếp sản xuất đã làm việc liên tục 5 năm trở lên, trong đó có ít nhất 2 năm là chiến sĩ thi đua được cấp tỉnh trở lên công nhận và cấp bằng khen",
+            "Điểm ưu tiên": 2,
+            "Điều kiện": "Được cấp tỉnh trở lên công nhận và cấp bằng khen",
+            "Hồ sơ yêu cầu": "Giấy khen cấp tỉnh"
+        },
+        {
+            "Nhóm ưu tiên": "UT1",
+            "Đối tượng": "3",
+            "Mô tả": "Thương binh, bệnh binh, người có “Giấy chứng nhận người được hưởng chính sách như thương binh”; Quân nhân; sĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ trong Công an nhân dân tại ngũ được cử đi học có thời gian phục vụ từ 12 tháng trở lên tại Khu vực 1; Quân nhân; sĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ trong Công an nhân dân tại ngũ được cử đi học có thời gian phục vụ từ 18 tháng trở lên; Quân nhân; sĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ trong Công an nhân dân đã xuất ngũ, được công nhận hoàn thành nghĩa vụ phục vụ tại ngũ theo quy định; Các đối tượng ưu tiên quy định tại điểm i, k, l, m khoản 1 Điều 2 Pháp lệnh số 26/2005/PL-UBTVQH11 ngày 29 tháng 6 năm 2005 được sửa đổi, bổ sung theo Pháp lệnh số 04/2012/UBTVQH13 ngày 16 tháng 7 năm 2012 của Ủy ban thường vụ Quốc hội về việc ưu đãi người có công với cách mạng.",
+            "Điểm ưu tiên": 2,
+            "Điều kiện": "Quân nhân hoặc công an phục vụ từ 12 tháng trở lên tại Khu vực 1",
+            "Hồ sơ yêu cầu": "Giấy chứng nhận, giấy tờ phục vụ tại ngũ"
+        },
+        {
+            "Nhóm ưu tiên": "UT1",
+            "Đối tượng": "4",
+            "Mô tả": "Con liệt sĩ; Con thương binh bị suy giảm khả năng lao động từ 81% trở lên; Con bệnh binh bị suy giảm khả năng lao động từ 81% trở lên; Con của người hoạt động kháng chiến bị nhiễm chất độc hoá học có tỷ lệ suy giảm khả năng lao động 81% trở lên; Con của người được cấp “Giấy chứng nhận người hưởng chính sách như thương binh” mà người được cấp “Giấy chứng nhận người hưởng chính sách như thương binh” bị suy giảm khả năng lao động 81% trở lên; Con của Anh hùng lực lượng vũ trang, con của Anh hùng lao động; Con đẻ của người hoạt động kháng chiến bị dị dạng, dị tật do hậu quả của chất độc hóa học đang hưởng trợ cấp hằng tháng; Con của người có công với cách mạng quy định tại điểm a, b, d khoản 1 Điều 2 Pháp lệnh số 26/2005/PL-UBTVQH11 ngày 29 tháng 6 năm 2005 được sửa đổi, bổ sung theo Pháp lệnh số 04/2012/UBTVQH13 ngày 16 tháng 7 năm 2012 về việc ưu đãi người có công với cách mạng.",
+            "Điểm ưu tiên": 2,
+            "Điều kiện": "Con của người có công với cách mạng",
+            "Hồ sơ yêu cầu": "Giấy chứng nhận người có công"
+        },
+        {
+            "Nhóm ưu tiên": "UT2",
+            "Đối tượng": "5",
+            "Mô tả": "Thanh niên xung phong tập trung được cử đi học; Quân nhân; sĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ trong Công an nhân dân tại ngũ được cử đi học có thời gian phục vụ dưới 12 tháng ở Khu vực 1 và dưới 18 tháng ở khu vực khác; Chỉ huy trưởng, Chỉ huy phó ban chỉ huy quân sự xã, phường, thị trấn; Thôn đội trưởng, Trung đội trưởng Dân quân tự vệ nòng cốt, Dân quân tự vệ đã hoàn thành nghĩa vụ tham gia Dân quân tự vệ nòng cốt từ 12 tháng trở lên, dự thi vào ngành Quân sự cơ sở. Thời hạn tối đa được hưởng ưu tiên là 18 tháng kể từ ngày ký quyết định xuất ngũ đến ngày dự thi hay ĐKXT.",
+            "Điểm ưu tiên": 1,
+            "Điều kiện": "Được cử đi học",
+            "Hồ sơ yêu cầu": "Giấy cử đi học"
+        },
+        {
+            "Nhóm ưu tiên": "UT2",
+            "Đối tượng": "6",
+            "Mô tả": "Công dân Việt Nam là người dân tộc thiểu số có hộ khẩu thường trú ở ngoài khu vực đã quy định thuộc đối tượng 01; Con thương binh, con bệnh binh, con của người được hưởng chính sách như thương binh bị suy giảm khả năng lao động dưới 81%; Con của người hoạt động kháng chiến bị nhiễm chất độc hóa học có tỷ lệ suy giảm khả năng lao động dưới 81%; Con của người hoạt động cách mạng, hoạt động kháng chiến bị địch bắt tù, đày; Con của người hoạt động kháng chiến giải phóng dân tộc, bảo vệ Tổ quốc và làm nghĩa vụ quốc tế có giấy chứng nhận được hưởng chế độ ưu tiên theo quy định tại Nghị định số 31/2013/NĐ-CP ngày 09 tháng 4 năm 2013 của Chính phủ quy định chi tiết, hướng dẫn thi hành một số điều của Pháp lệnh Ưu đãi người có công với cách mạng; Con của người có công giúp đỡ cách mạng.",
+            "Điểm ưu tiên": 1,
+            "Điều kiện": "Con thương binh, con bệnh binh, con người có công",
+            "Hồ sơ yêu cầu": "Giấy tờ hợp pháp chứng minh"
+        },
+        {
+            "Nhóm ưu tiên": "UT2",
+            "Đối tượng": "7",
+            "Mô tả": "Người khuyết tật nặng có giấy xác nhận khuyết tật của cơ quan có thẩm quyền cấp theo quy định tại Thông tư liên tịch số 37/2012/TTLT-BLĐTBXH-BYT-BTC-BGDĐT ngày 28 tháng 12 năm 2012 của Bộ Lao động - Thương binh và Xã hội, Bộ Y tế, Bộ Tài chính và Bộ GDĐT quy định về việc xác định mức độ khuyết tật do Hội đồng xác định mức độ khuyết tật thực hiện.",
+            "Điểm ưu tiên": 1,
+            "Điều kiện": "Có giấy xác nhận khuyết tật",
+            "Hồ sơ yêu cầu": "Giấy xác nhận khuyết tật"
+        },
+        {
+            "Nhóm ưu tiên": "UT2",
+            "Đối tượng": "7",
+            "Mô tả": "Người lao động ưu tú thuộc tất cả các thành phần kinh tế được từ cấp tỉnh, Bộ trở lên công nhận danh hiệu thợ giỏi, nghệ nhân, được cấp bằng hoặc huy hiệu Lao động sáng tạo của Tổng Liên đoàn Lao động Việt Nam hoặc Trung ương Đoàn TNCS Hồ Chí Minh; Giáo viên đã giảng dạy đủ 3 năm trở lên thi vào các ngành sư phạm; Trung cấp dược, y sĩ, điều dưỡng viên, kỹ thuật viên đã công tác đủ 3 năm trở lên thi vào nhóm ngành sức khỏe.",
+            "Điểm ưu tiên": 1,
+            "Điều kiện": "Được cấp bằng lao động sáng tạo, giáo viên đã giảng dạy đủ 3 năm",
+            "Hồ sơ yêu cầu": "Giấy chứng nhận lao động sáng tạo, hợp đồng lao động"
+        },
+        {
+            "Nhóm ưu tiên": "KV1",
+            "Đối tượng": "KV1",
+            "Mô tả": "Các đối tượng học tại Khu vực 1: Áp dụng cho thí sinh sinh sống tại các xã thuộc vùng dân tộc thiểu số và miền núi (gồm các khu vực 1, 2, 3), các xã đặc biệt khó khăn thuộc vùng ven biển, bãi ngang, hải đảo và những xã giáp biên giới theo quy định của Chính phủ.",
+            "Điểm ưu tiên": 0.75,
+            "Điều kiện": "Sống tại Khu vực 1",
+            "Hồ sơ yêu cầu": "Giấy tờ chứng minh khu vực"
+        },
+        {
+            "Nhóm ưu tiên": "KV2-NT",
+            "Đối tượng": "KV2-NT",
+            "Mô tả": "Các đối tượng học tại Khu vực 2 nông thôn: Bao gồm các huyện nằm ngoài khu vực thành phố trực thuộc Trung ương, không thuộc KV1, KV2 hay KV3.",
+            "Điểm ưu tiên": 0.5,
+            "Điều kiện": "Sống tại Khu vực 2 nông thôn (KV2-NT)",
+            "Hồ sơ yêu cầu": "Giấy tờ chứng minh khu vực"
+        },
+        {
+            "Nhóm ưu tiên": "KV2",
+            "Đối tượng": "KV2",
+            "Mô tả": "Các đối tượng học tại Khu vực 2: Gồm các thị xã, thành phố trực thuộc tỉnh và các huyện ngoại thành của các thành phố trực thuộc Trung ương.",
+            "Điểm ưu tiên": 0.25,
+            "Điều kiện": "Sống tại Khu vực 2",
+            "Hồ sơ yêu cầu": "Giấy tờ chứng minh khu vực"
+        },
+        {
+            "Nhóm ưu tiên": "KV3",
+            "Đối tượng": "KV3",
+            "Mô tả": "Các đối tượng học tại Khu vực 3: Là những quận nội thành của các thành phố trực thuộc Trung ương.",
+            "Điểm ưu tiên": 0,
+            "Điều kiện": "Sống tại Khu vực 3",
+            "Hồ sơ yêu cầu": "Giấy tờ chứng minh khu vực"
+        },
+        {
+            "Nhóm ưu tiên": "DB1",
+            "Đối tượng": "Khu vực",
+            "Mô tả": "Các xã khu vực 3 và các xã có thôn đặc biệt khó khăn thuộc vùng dân tộc và miền núi theo Quyết định số 447/QĐ-UBDT ngày 19/9/2013, Quyết định số 68/QĐ-UBDT ngày 19/3/2014 và Quyết định số 601/QĐ-UBDT ngày 29/10/2015 của Bộ trưởng, Chủ nhiệm Ủy ban Dân tộc; các xã đặc biệt khó khăn vùng bãi ngang ven biển và hải đảo giai đoạn 2013-2015 được quy định tại Quyết định số 539/QĐ-TTg ngày 01/4/2013 của Thủ tướng Chính phủ, Quyết định số 2311/QĐ-TTg ngày 18/12/2015 về việc công nhận xã đảo thuộc tỉnh Kiên Giang, Quyết định số 2312/QĐ-TTg ngày 18/12/2015 về việc công nhận xã đảo thuộc tỉnh Khánh Hòa; Quyết định số 202/QĐ-TTg ngày 01/2/2016 về việc công nhận xã đảo thuộc tỉnh Bình Thuận, Quyết định số 810/QĐ-TTg ngày 13/5/2016 về việc công nhận xã đảo thuộc tỉnh Trà Vinh; các xã đặc biệt khó khăn, xã biên giới, xã an toàn khu vào diện đầu tư của Chương trình 135 năm 2014 và năm 2015 được quy định tại Quyết định số 2405/QĐ-TTg ngày 10/12/2013 của Thủ tướng Chính phủ và Quyết định số 495/QĐ-TTg ngày 08/04/2014 của Thủ tướng Chính phủ điều chỉnh, bổ sung Quyết định số 2405/QĐ-TTg ngày 10/12/2013; các xã đặc biệt khó khăn, xã biên giới, xã an toàn khu vào diện đầu tư của chương trình 135 giai đoạn 2016-2020 được quy định tại Quyết định số 204/QĐ-TTg ngày 01/02/2016 của Thủ tướng Chính phủ.",
+            "Điểm ưu tiên": "Điểm tùy thuộc vào điều kiện xét",
+            "Điều kiện": "Các xã theo Quyết định của Thủ tướng Chính phủ",
+            "Hồ sơ yêu cầu": "Giấy chứng nhận khu vực"
+        },
+        {
+            "Nhóm ưu tiên": "DB2",
+            "Đối tượng": "Khu vực",
+            "Mô tả": "Nếu trong 3 năm học THPT (hoặc trong thời gian học trung cấp) có chuyển trường thì thời gian học ở khu vực nào lâu hơn được hưởng ưu tiên theo khu vực đó. Nếu mỗi năm học một trường thuộc các khu vực có mức ưu tiên khác nhau hoặc nửa thời gian học ở trường này, nửa thời gian học ở trường kia thì tốt nghiệp ở khu vực nào, hưởng ưu tiên theo khu vực đó. Quy định này áp dụng cho tất cả thí sinh, kể cả thí sinh đã tốt nghiệp từ trước năm tuyển sinh.",
+            "Điểm ưu tiên": "Điểm tùy thuộc vào điều kiện xét",
+            "Điều kiện": "Học tại khu vực có ưu tiên",
+            "Hồ sơ yêu cầu": "Giấy tờ chứng minh nơi học"
+        },
+        {
+            "Nhóm ưu tiên": "DB3",
+            "Đối tượng": "Khu vực",
+            "Mô tả": "Nếu trong 3 năm học THPT (hoặc trong thời gian học trung cấp) có chuyển trường thì thời gian học ở khu vực nào lâu hơn được hưởng ưu tiên theo khu vực đó. Nếu mỗi năm học một trường thuộc các khu vực có mức ưu tiên khác nhau hoặc nửa thời gian học ở trường này, nửa thời gian học ở trường kia thì tốt nghiệp ở khu vực nào, hưởng ưu tiên theo khu vực đó. Quy định này áp dụng cho tất cả thí sinh, kể cả thí sinh đã tốt nghiệp từ trước năm tuyển sinh.",
+            "Điểm ưu tiên": "Điểm tùy thuộc vào điều kiện xét",
+            "Điều kiện": "Học ở trường thuộc các khu vực có thay đổi mức ưu tiên",
+            "Hồ sơ yêu cầu": "Mã trường, Giấy chứng nhận khu vực"
+        }
+    ]
+}
