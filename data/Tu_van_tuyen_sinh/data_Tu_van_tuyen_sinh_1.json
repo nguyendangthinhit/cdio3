@@ -350,5 +350,35 @@
             "Điều kiện": "Học ở trường thuộc các khu vực có thay đổi mức ưu tiên",
             "Hồ sơ yêu cầu": "Mã trường, Giấy chứng nhận khu vực"
         }
+    ],
+    "chuyen_vien_tu_van": [
+        {
+            "TT": 1,
+            "Tên": "Trương Đức Quốc Huy",
+            "SĐT": 399984665,
+            "Email": "johnnypors2@gmail.com",
+            "Chương trình tư vấn": "HP, Normal"
+        },
+        {
+            "TT": 2,
+            "Tên": "Nguyễn Đăng Thịnh",
+            "SĐT": 708173610,
+            "Email": "nguyendangthinh.it@gmail.com",
+            "Chương trình tư vấn": "TROY"
+        },
+        {
+            "TT": 3,
+            "Tên": "Nguyễn Bá Thiện",
+            "SĐT": 707908942,
+            "Email": "nguyenbathien.3112@gmail.com",
+            "Chương trình tư vấn": "CMU"
+        },
+        {
+            "TT": 4,
+            "Tên": "Lê Thành Quang",
+            "SĐT": 705465483,
+            "Email": "thanhquangk2@gmail.com",
+            "Chương trình tư vấn": "PSU, PNU"
+        }
     ]
 }
