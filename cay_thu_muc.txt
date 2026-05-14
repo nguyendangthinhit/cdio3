@@ -6,7 +6,8 @@ CHATBOT TUYỂN SINH ĐẠI HỌC DUY TÂN
 │ ├── de_xuat_nganh_hoc_theo_nang_luc_ca_nhan_y_chang.json
 │ ├── de_xuat_viec_lam_theo_nang_luc_va_so_thich.json
 │ ├── map_xu_huong_theo_CN_conf40.json
-│ ├── mo_ta_nganh.json
+│ ├── mo_ta_nganh_1.json //TRƯỜNG CÔNG NGHỆ, TRƯỜNG DU LỊCH, KHOA ĐÀO TẠO QUỐC TẾ
+│ ├── mo_ta_nganh_2.json //TRƯỜNG KINH TẾ & KINH DOANH, TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN, TRUNG TÂM KT&CN VIỆT-NHẬT, KHOA Y-DƯỢC
 │ └── mo_ta_nganh_sca.json
 │
 ├── Thông tin về trường (data_Thong_tin_ve_truong.json)
@@ -17,7 +18,9 @@ CHATBOT TUYỂN SINH ĐẠI HỌC DUY TÂN
 │ ├── thu_vien_dai_hoc_duy_tan.json
 │ └── truong_khoa_truc_thuoc.json
 │
-├── Tư vấn tuyển sinh (data_Tu_van_tuyen_sinh.json)
+├── Tư vấn tuyển sinh (data_Tu_van_tuyen_sinh_1.json //Thông tin tuyển sinh, Cách tính điểm & Đối tượng ưu tiên, 
+│                      data_Tu_van_tuyen_sinh_2.json //Học phí, Học bổng & Chuyên viên tư vấn, 
+│                      data_Tu_van_tuyen_sinh_3.json //Chương trình đào tạo & Tổ hợp xét tuyển)
 │ ├── CachTinhDiemXetTuyen_2026.json
 │ ├── ThongTinTuyenSinh_DuyTan_2026.json
 │ ├── chinh_sach_hoc_bong.json
