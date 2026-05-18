@@ -181,19 +181,36 @@
     background: #0052cc;
     color: white;
     border: none;
-    border-radius: 25px;
-    padding: 0 22px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.2s ease, transform 0.2s ease;
     
-    &:hover {
+    &:hover:not(:disabled) {
       background: #0045ab;
+      transform: scale(1.05);
     }
     
     &:active {
       transform: scale(0.95);
     }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.85;
+    }
+  }
+
+  .spinner {
+    width: 22px;
+    height: 22px;
+    animation: spin 0.85s linear infinite;
   }
 }
 
@@ -210,4 +227,10 @@
 }
 .chatBody::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
 }

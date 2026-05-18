@@ -62,7 +62,7 @@ const Chatbot = () => {
     } catch (err) {
      setMessages(prev => [
         ...prev,
-        { type: 'bot', text: 'Lỗi kết nối server 😢' }
+        { type: 'bot', text: 'Lỗi kết nối server!' }
       ]);
     }
     setLoading(false);
@@ -133,8 +133,17 @@ const Chatbot = () => {
             onKeyDown={(e) => e.key === 'Enter' && !loading && sendMessage()}
             disabled={loading}
           />
-          <button className={styles.sendBtn} onClick={sendMessage} disabled={loading}>
-            Gửi
+          <button className={`${styles.sendBtn} ${loading ? styles.sendBtnLoading : ''}`} onClick={sendMessage} disabled={loading}>
+            {loading ? (
+              <svg className={styles.spinner} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" strokeLinecap="round"
+                  strokeDasharray="31.416" strokeDashoffset="10" />
+              </svg>
+            ) : (
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+              </svg>
+            )}
           </button>
         </div>
       </div>
