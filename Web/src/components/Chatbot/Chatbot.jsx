@@ -42,7 +42,7 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('https://cdio3new.app.n8n.cloud/webhook/cdio3', { 
+      const res = await fetch('https://cdio3final.app.n8n.cloud/webhook/cdio3', { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
