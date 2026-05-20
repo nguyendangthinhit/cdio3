@@ -208,5 +208,12 @@
     "question": "hello",
     "answer": "Chào bạn! Mình là trợ lý tuyển sinh DTU, mình có thể giúp gì cho bạn về thông tin học phí, ngành học hay học bổng không?",
     "timestamp": "2026-05-19T15:33:39.241Z"
+  },
+  {
+    "user_id": "dc64b18b-75de-4934-a7ef-3d5ffb80d1ab",
+    "category": "unknown",
+    "question": "học phí ngành an ninh mạng",
+    "answer": "Chào bạn, học phí cho ngành An ninh mạng tại Đại học Duy Tân năm 2026 như sau:\n\nNgành An ninh mạng chuẩn CMU:\nHọc phí mỗi học kỳ: 17.600.000 VNĐ\nHọc phí mỗi năm: 35.200.000 VNĐ\n\nBên cạnh đó, bạn cũng có thể tham khảo thêm ngành An toàn Thông tin với mức phí:\nHọc phí mỗi học kỳ: 15.040.000 VNĐ\nHọc phí mỗi năm: 30.080.000 VNĐ\n\nBạn có cần biết thêm thông tin về học bổng, hạn nộp hồ sơ, hay các thông tin khác không nè? 2026-04-28T12:09:11.394Z",
+    "timestamp": "2026-05-20T16:37:35.956Z"
   }
 ]
