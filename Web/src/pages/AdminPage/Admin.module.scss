@@ -688,3 +688,57 @@
   color: var(--accent);
   line-height: 1;
 }
+
+// ── Topic card with related majors ───────────────────────────────────────────
+.topicCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 18px;
+  background: #eef0f8;
+  border-radius: 12px;
+  transition: background 0.15s;
+
+  .page.dark & { background: var(--bg-row-hover); }
+}
+
+.topicHead {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topicMajors {
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.topicMajorsLabel {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.topicMajorsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.topicMajorChip {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+
+  strong {
+    color: var(--accent);
+    font-weight: 700;
+    margin-left: 4px;
+  }
+}

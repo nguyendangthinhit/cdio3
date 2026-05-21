@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .env
 n8n
+api*.txt
+.claude

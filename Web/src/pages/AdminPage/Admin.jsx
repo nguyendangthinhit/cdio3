@@ -46,6 +46,56 @@ const classifyQuestion = (q = "") => {
 const detectSource = (user_id = "") =>
   /^\d+$/.test(user_id.trim()) ? "mess" : "web";
 
+// ── Topic detection (chủ đề mà user quan tâm) ────────────────────────────────
+// Thứ tự: topic càng cụ thể đặt càng trước. Khớp đầu tiên thắng.
+const TOPIC_KEYWORDS = [
+  { topic: "Học phí",         keys: ["học phí", "chi phí", "tiền học", "đơn giá tín chỉ"] },
+  { topic: "Học bổng",        keys: ["học bổng", "tài năng", "miễn giảm"] },
+  { topic: "So sánh ngành",   keys: ["so sánh", "so với", "khác nhau giữa", "khác gì"] },
+  { topic: "Tư vấn ngành",    keys: ["nên học", "học gì", "phù hợp", "thích vẽ", "định hướng", "quan tâm ngành"] },
+  { topic: "Xét tuyển",       keys: ["xét tuyển", "tuyển sinh", "điểm chuẩn", "hồ sơ", "đăng ký"] },
+  { topic: "Cơ sở vật chất",  keys: ["cơ sở", "thư viện", "phòng lab", "ký túc"] },
+  { topic: "Thông tin trường",keys: ["duy tân", "dtu", "thành lập", "trường"] },
+  { topic: "Chương trình học",keys: ["chương trình", "đào tạo", "môn học", "tín chỉ"] },
+];
+
+const detectTopic = (q = "") => {
+  const t = q.toLowerCase();
+  for (const { topic, keys } of TOPIC_KEYWORDS) {
+    if (keys.some((k) => t.includes(k))) return topic;
+  }
+  return "Khác";
+};
+
+// ── Major detection (ngành học được nhắc tới) ────────────────────────────────
+// Mỗi ngành có nhiều alias. Một câu có thể nhắc nhiều ngành (so sánh) → trả mảng.
+const MAJORS = [
+  { name: "CN Ô tô thông minh",   keys: ["ô tô", "oto", "ôtô", "automotive"] },
+  { name: "Big Data & ML",        keys: ["big data", "bigdata", "machine learning"] },
+  { name: "Khoa học Dữ liệu",     keys: ["khoa học dữ liệu", "data science", "khdl"] },
+  { name: "Trí tuệ Nhân tạo",     keys: ["trí tuệ nhân tạo", "artificial intelligence"] },
+  { name: "CN Phần mềm CMU",      keys: ["phần mềm cmu", "cmu", "công nghệ phần mềm"] },
+  { name: "Quản trị Du lịch",     keys: ["du lịch", "lữ hành", "hàng không"] },
+  { name: "Bác sĩ Đa khoa",       keys: ["bác sĩ đa khoa", "đa khoa", "y khoa"] },
+  { name: "Răng Hàm Mặt",         keys: ["răng hàm mặt", "rhm", "nha khoa"] },
+  { name: "Điều dưỡng",           keys: ["điều dưỡng"] },
+  { name: "Dược",                 keys: ["dược sĩ", "ngành dược"] },
+  { name: "Kiến trúc",            keys: ["ngành kiến trúc", "kiến trúc sư"] },
+  { name: "Xây dựng",             keys: ["ngành xây dựng", "kỹ thuật xây dựng", "kỹ sư xây dựng"] },
+  { name: "Kinh tế",              keys: ["kinh tế", "kế toán", "tài chính", "ngân hàng"] },
+  { name: "Marketing",            keys: ["marketing"] },
+  { name: "Ngôn ngữ",             keys: ["ngôn ngữ anh", "tiếng anh", "ngôn ngữ"] },
+];
+
+const detectMajors = (text = "") => {
+  const t = text.toLowerCase();
+  const found = [];
+  for (const { name, keys } of MAJORS) {
+    if (keys.some((k) => t.includes(k))) found.push(name);
+  }
+  return found;
+};
+
 const COLORS = ["#6366f1", "#10b981", "#f59e0b", "#ef4444", "#06b6d4", "#ec4899", "#a78bfa"];
 
 const shortUser = (id = "") =>
@@ -73,15 +123,17 @@ const Admin = () => {
   const [selectedHistoryUser, setSelectedHistoryUser] = useState(null);
   const [needAgentOpen, setNeedAgentOpen] = useState(true);
 
-  const GITHUB_RAW_URL =
-    "https://raw.githubusercontent.com/nguyendangthinhit/cdio3/main/history.json";
+  // jsDelivr CDN tôn trọng query string làm cache key, nên ?t=... bust được cache
+  // (khác raw.githubusercontent.com qua Fastly bỏ qua query string).
+  const DATA_URL =
+    "https://cdn.jsdelivr.net/gh/nguyendangthinhit/cdio3@main/history.json";
 
   const fetchData = useCallback((isManual = false) => {
     if (isManual) setSyncing(true);
-    fetch(`${GITHUB_RAW_URL}?t=${Date.now()}`)
-      .then((r) => { if (!r.ok) throw new Error("Network error"); return r.json(); })
+    fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" })
+      .then((r) => { if (!r.ok) throw new Error("Network error " + r.status); return r.json(); })
       .then((json) => { setData(json); setLastUpdated(new Date()); setLoading(false); setSyncing(false); })
-      .catch(() => { setLoading(false); setSyncing(false); });
+      .catch((err) => { console.error("[Admin] fetchData failed:", err); setLoading(false); setSyncing(false); });
   }, []);
 
   useEffect(() => { fetchData(); }, [fetchData]);
@@ -137,6 +189,44 @@ const Admin = () => {
       .sort((a, b) => b.count - a.count)
       .slice(0, 3);
   }, [categoryStats]);
+
+  // Top 3 chủ đề user quan tâm + ngành được hỏi nhiều nhất trong mỗi chủ đề
+  const topTopicsWithMajors = useMemo(() => {
+    const topicMap = {}; // { topic: { count, majors: { majorName: count } } }
+    data.forEach(({ question }) => {
+      const topic = detectTopic(question);
+      if (topic === "Khác") return;
+      if (!topicMap[topic]) topicMap[topic] = { count: 0, majors: {} };
+      topicMap[topic].count += 1;
+      // Chỉ scan trong question để phản ánh đúng nhu cầu user (answer là text bot, nhiễu)
+      detectMajors(question).forEach((m) => {
+        topicMap[topic].majors[m] = (topicMap[topic].majors[m] || 0) + 1;
+      });
+    });
+
+    return Object.entries(topicMap)
+      .map(([topic, info]) => {
+        const topMajors = Object.entries(info.majors)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 3)
+          .map(([name, count]) => ({ name, count }));
+        return { topic, count: info.count, topMajors };
+      })
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 3);
+  }, [data]);
+
+  // Top ngành được quan tâm nhất (tổng hợp toàn bộ log) — chỉ scan question
+  const topMajorsOverall = useMemo(() => {
+    const map = {};
+    data.forEach(({ question }) => {
+      detectMajors(question).forEach((m) => { map[m] = (map[m] || 0) + 1; });
+    });
+    return Object.entries(map)
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 7);
+  }, [data]);
 
   const uniqueUsers = useMemo(() => {
     const map = {};
@@ -319,26 +409,82 @@ const Admin = () => {
                 </div>
               </div>
 
-              {/* Row 2: Top 3 loại câu hỏi cần lưu ý */}
-              <div className={styles.chartCard}>
-                <h3 className={styles.chartTitle}><RiseOutlined /> Top 3 Loại Câu hỏi Cần Lưu ý</h3>
-                <div className={styles.top3CatList}>
-                  {top3Categories.map(({ cat, count }, i) => {
-                    const rankColors = ["#f59e0b", "#94a3b8", "#f97316"];
-                    return (
-                      <div key={cat} className={styles.top3CatCard}>
-                        <div className={styles.top3CatRank} style={{ background: rankColors[i] }}>{i + 1}</div>
-                        <div className={styles.top3CatInfo}>
-                          <div className={styles.top3CatLabel}>LOẠI (CATEGORY)</div>
-                          <div className={styles.top3CatName}>{cat}</div>
-                        </div>
-                        <div className={styles.top3CatCountWrap}>
-                          <div className={styles.top3CatLabel}>SỐ LƯỢNG</div>
-                          <div className={styles.top3CatCount}>{count}</div>
-                        </div>
+              {/* Row 2: Top 3 chủ đề user quan tâm + Top ngành */}
+              <div className={styles.chartGrid2}>
+                <div className={styles.chartCard}>
+                  <h3 className={styles.chartTitle}><RiseOutlined /> Top 3 Chủ đề User Quan tâm</h3>
+                  <div className={styles.top3CatList}>
+                    {topTopicsWithMajors.length === 0 ? (
+                      <div className={styles.dimText} style={{ padding: "12px 4px" }}>
+                        Chưa có dữ liệu chủ đề rõ ràng.
                       </div>
-                    );
-                  })}
+                    ) : topTopicsWithMajors.map(({ topic, count, topMajors }, i) => {
+                      const rankColors = ["#f59e0b", "#94a3b8", "#f97316"];
+                      return (
+                        <div key={topic} className={styles.topicCard}>
+                          <div className={styles.topicHead}>
+                            <div className={styles.top3CatRank} style={{ background: rankColors[i] }}>{i + 1}</div>
+                            <div className={styles.top3CatInfo}>
+                              <div className={styles.top3CatLabel}>CHỦ ĐỀ</div>
+                              <div className={styles.top3CatName}>{topic}</div>
+                            </div>
+                            <div className={styles.top3CatCountWrap}>
+                              <div className={styles.top3CatLabel}>LƯỢT HỎI</div>
+                              <div className={styles.top3CatCount}>{count}</div>
+                            </div>
+                          </div>
+                          {topMajors.length > 0 && (
+                            <div className={styles.topicMajors}>
+                              <div className={styles.topicMajorsLabel}>Ngành hỏi nhiều nhất:</div>
+                              <div className={styles.topicMajorsList}>
+                                {topMajors.map(({ name, count: c }) => (
+                                  <span key={name} className={styles.topicMajorChip}>
+                                    {name} <strong>{c}</strong>
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className={styles.chartCard}>
+                  <h3 className={styles.chartTitle}><AppstoreOutlined /> Top Ngành Được Quan tâm</h3>
+                  {topMajorsOverall.length === 0 ? (
+                    <div className={styles.dimText} style={{ padding: "12px 4px" }}>
+                      Chưa nhận dạng được ngành trong log.
+                    </div>
+                  ) : (
+                    <div className={styles.top3List}>
+                      {(() => {
+                        const max = topMajorsOverall[0].count || 1;
+                        return topMajorsOverall.map(({ name, count }, i) => (
+                          <div key={name} className={styles.top3Item}>
+                            <div
+                              className={styles.top3Rank}
+                              style={{ background: COLORS[i % COLORS.length] }}
+                            >{i + 1}</div>
+                            <div className={styles.top3Content}>
+                              <div className={styles.top3Question} title={name}>{name}</div>
+                              <div className={styles.top3Bar}>
+                                <div
+                                  className={styles.top3BarFill}
+                                  style={{
+                                    width: `${(count / max) * 100}%`,
+                                    background: COLORS[i % COLORS.length],
+                                  }}
+                                />
+                              </div>
+                            </div>
+                            <div className={styles.top3Count}>{count}</div>
+                          </div>
+                        ));
+                      })()}
+                    </div>
+                  )}
                 </div>
               </div>
 

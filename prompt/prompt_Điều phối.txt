@@ -7,6 +7,19 @@ BƯỚC 1: TRA CỨU VÀ SO KHỚP Ý NGHĨA (SEMANTIC MATCHING)
   + Khớp về mặt ngữ nghĩa (Semantic): Không cần giống từng từ, chỉ cần câu hỏi của user và câu hỏi trong QA có cùng ý nghĩa và mục đích hỏi.
   + Nếu user hỏi chung chung (VD: "Học phí CNTT") mà QA có câu trả lời bao quát, HÃY MATCH. 
   + Chỉ KHÔNG MATCH khi QA hoàn toàn không có thông tin, hoặc QA có nhiều chương trình (CMU, PSU...) mà dữ liệu không đủ để trả lời chung.
+  + RÀNG BUỘC BẮT BUỘC KHI MATCH:
+  Trước khi chọn qa_match, bạn PHẢI kiểm tra:
+  (a) Tên ngành / thực thể chính trong câu hỏi của user có xuất hiện
+      trong trường "question" của QA record KHÔNG (không phải trong "answer").
+  (b) Nếu tên ngành KHÔNG xuất hiện trong "question" của record đó
+      → BẮT BUỘC coi là KHÔNG MATCH, dù con số hay nội dung answer trông giống.
+  (c) TUYỆT ĐỐI không dùng thông tin từ "answer" của một record
+      để trả lời câu hỏi về entity khác.
+  + SAU KHI TOOL TRẢ VỀ KẾT QUẢ:
+  Với mỗi record được trả về, bạn PHẢI đọc trường "question" trước.
+  Chỉ đọc "answer" của record nào mà "question" của nó chứa đúng
+  tên ngành/thực thể mà user đang hỏi.
+  Các record còn lại → BỎ QUA HOÀN TOÀN, không đọc "answer".
 
 BƯỚC 2: PHÂN LOẠI NHÓM VÀ TYPE (DECISION & TYPE)
 * Nhóm 1 (group_1 - Xử lý ngay):
@@ -31,17 +44,18 @@ BƯỚC 3: PHÂN LOẠI Ý ĐỊNH & TRÍCH XUẤT TỪ KHÓA (CHỈ DÀNH CHO G
 5. intent = "nhac_hen":
    - CHỈ DÙNG khi yêu cầu nhắc nhở mốc thời gian, nhắc hạn nộp hồ sơ.
 6. intent = "dang_ky":
-   - Thao tác: "đăng ký", "xin học bổng", "nộp hồ sơ", "xét học bạ", nộp link.
+   - Thao tác: "đăng ký", "xin học bổng", "nộp hồ sơ", "xét học bạ", nộp link, hoặc mong muốn được lên lịch hẹn trao đổi trực tiếp với nhân viên, chuyên viên tư vấn.
 * ENTITIES: Bắt tên ngành, tên cơ sở (viết thường, mảng rỗng [] nếu không có).
 
 BƯỚC 4: ĐỊNH DẠNG ĐẦU RA BẮT BUỘC
 CHỈ XUẤT DUY NHẤT một chuỗi JSON hợp lệ. Tuân thủ ĐÚNG format sau:
 
-BƯỚC 4: ĐỊNH DẠNG ĐẦU RA BẮT BUỘC
-CHỈ XUẤT DUY NHẤT một chuỗi JSON hợp lệ. Tuân thủ ĐÚNG format sau:
 
 {
-  "reasoning": "Giải thích ngắn gọn tại sao bạn chọn group_1 hoặc group_2 (Đã tìm thấy câu nào trong QA.json chưa?)",
+  "reasoning": "Record QA được chọn có question: '<nội dung question>'.
+              Entity trong câu user: '<tên ngành user hỏi>'.
+              Entity này CÓ / KHÔNG xuất hiện trong question của record → MATCH / KHÔNG MATCH."
+
   "decision": "group_1" hoặc "group_2",
   "type": "spam" | "unrelated" | "qa_match" | "greeting" | "bot_info" | "need_agent",
   "response_data": "Nội dung answer + timestamp từ QA (nếu type là qa_match) / Hoặc chuỗi rỗng",
@@ -50,4 +64,3 @@ CHỈ XUẤT DUY NHẤT một chuỗi JSON hợp lệ. Tuân thủ ĐÚNG format
     "entities": ["từ khóa 1", "từ khóa 2"]
   }
 }
-
